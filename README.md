@@ -10,8 +10,8 @@ Twee feeds uit **kalahealth.nl** (publieke WooCommerce-winkel, geen login):
 Feed-URL's voor Stock Sync (na het pushen naar GitHub):
 
 ```
-https://raw.githubusercontent.com/Maximillian-creator/kala-feed/main/kala_feed.xml
-https://raw.githubusercontent.com/Maximillian-creator/kala-feed/main/kala_add_feed.xml
+https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/main/kala_feed.xml
+https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/main/kala_add_feed.xml
 ```
 
 **De repo moet publiek zijn**, anders kan Stock Sync de bestanden niet ophalen.

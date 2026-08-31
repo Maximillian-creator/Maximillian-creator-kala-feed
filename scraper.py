@@ -24,7 +24,7 @@ from xml.dom import minidom
 import kala_common as kc
 
 OUTPUT_FILE = "kala_feed.xml"
-FEED_URL = ("https://raw.githubusercontent.com/Maximillian-creator/kala-feed/"
+FEED_URL = ("https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/"
             "main/kala_feed.xml")
 
 

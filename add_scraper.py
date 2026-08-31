@@ -32,7 +32,7 @@ import kala_common as kc
 
 OUTPUT_FILE = "kala_add_feed.xml"
 BRON_FILE = "kala_tekstbron.csv"
-FEED_URL = ("https://raw.githubusercontent.com/Maximillian-creator/kala-feed/"
+FEED_URL = ("https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/"
             "main/kala_add_feed.xml")
 
 
