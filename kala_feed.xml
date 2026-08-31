@@ -1,0 +1,2448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <sku>1600405</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomaal IJzer</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomaal-ijzer</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>false</available>
+    <voorraad>nabestelling</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomaal-ijzer/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1600402</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomaal IJzer</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomaal-ijzer</handle>
+    <option1>60 capsules</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>false</available>
+    <voorraad>nabestelling</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomaal-ijzer/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>3402060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>ButyraGen® Butyraat Capsules</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-butyragen-butyraat-capsules</handle>
+    <option1>60 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/butyragen-capsules/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>3402180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>ButyraGen® Butyraat Capsules</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-butyragen-butyraat-capsules</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/butyragen-capsules/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1313180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomale Quercetine</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomale-quercetine</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-quercetine/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1313060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomale Quercetine</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomale-quercetine</handle>
+    <option1>60 capsules</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-quercetine/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1312180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomaal Glutathion</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomaal-glutathion</handle>
+    <option1>180 capsules</option1>
+    <price>119.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-glutathion/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1312060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomaal Glutathion</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomaal-glutathion</handle>
+    <option1>60 capsules</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-glutathion/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1309180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomaal PEA</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomaal-pea</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-pea/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1309060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomaal PEA</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomaal-pea</handle>
+    <option1>60 capsules</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-pea/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1311180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomaal Resveratrol</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomaal-resveratrol</handle>
+    <option1>180 capsules</option1>
+    <price>129.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-resveratrol/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1311060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomaal Resveratrol</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomaal-resveratrol</handle>
+    <option1>60 capsules</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-resveratrol/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1310180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomale vitamine B12 + Folaat</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomale-vitamine-b12-plus-folaat</handle>
+    <option1>180 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-vitamine-b12-folaat/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1310060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomale vitamine B12 + Folaat</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomale-vitamine-b12-plus-folaat</handle>
+    <option1>60 capsules</option1>
+    <price>19.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-vitamine-b12-folaat/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1903250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Plantaardige Voedingsvezels</title>
+    <variant_title>Standaard</variant_title>
+    <handle>kala-health-plantaardige-voedingsvezels</handle>
+    <option1>Standaard</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/plantaardige-voedingsvezels-poeder/</url>
+  </product>
+  <product>
+    <sku>1300405</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Gewrichten Bundel</title>
+    <variant_title>180 caps + crème</variant_title>
+    <handle>kala-health-gewrichten-bundel</handle>
+    <option1>180 caps + crème</option1>
+    <price>184.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/gewrichten-bundel/?attribute_pa_aantal=180-caps-creme</url>
+  </product>
+  <product>
+    <sku>1300402</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Gewrichten Bundel</title>
+    <variant_title>60 caps + crème</variant_title>
+    <handle>kala-health-gewrichten-bundel</handle>
+    <option1>60 caps + crème</option1>
+    <price>84.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/gewrichten-bundel/?attribute_pa_aantal=60-caps-creme</url>
+  </product>
+  <product>
+    <sku>1800205</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Meer Energie Bundel</title>
+    <variant_title>500 gr. + 180 capsules</variant_title>
+    <handle>kala-health-meer-energie-bundel</handle>
+    <option1>500 gr. + 180 capsules</option1>
+    <price>159.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/meer-energie-bundel/?attribute_pa_aantal=500-gr-180-capsules</url>
+  </product>
+  <product>
+    <sku>1800202</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Meer Energie Bundel</title>
+    <variant_title>500 gr. + 60 capsules</variant_title>
+    <handle>kala-health-meer-energie-bundel</handle>
+    <option1>500 gr. + 60 capsules</option1>
+    <price>94.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/meer-energie-bundel/?attribute_pa_aantal=500-gr-60-capsules</url>
+  </product>
+  <product>
+    <sku>1500415</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Lion’s Mane BIO Poeder</title>
+    <variant_title>500 gram</variant_title>
+    <handle>kala-health-lions-mane-bio-poeder</handle>
+    <option1>500 gram</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/lions-mane-bio-poeder/?attribute_pa_aantal=500-gram</url>
+  </product>
+  <product>
+    <sku>0441250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Lion’s Mane BIO Poeder</title>
+    <variant_title>250 gram</variant_title>
+    <handle>kala-health-lions-mane-bio-poeder</handle>
+    <option1>250 gram</option1>
+    <price>37.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/lions-mane-bio-poeder/?attribute_pa_aantal=250-gram</url>
+  </product>
+  <product>
+    <sku>1500515</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Shiitake BIO Poeder</title>
+    <variant_title>500 gram</variant_title>
+    <handle>kala-health-shiitake-bio-poeder</handle>
+    <option1>500 gram</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/product-shiitake-bio-poeder/?attribute_pa_aantal=500-gram</url>
+  </product>
+  <product>
+    <sku>0461250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Shiitake BIO Poeder</title>
+    <variant_title>250 gram</variant_title>
+    <handle>kala-health-shiitake-bio-poeder</handle>
+    <option1>250 gram</option1>
+    <price>37.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/product-shiitake-bio-poeder/?attribute_pa_aantal=250-gram</url>
+  </product>
+  <product>
+    <sku>1900205</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Betere Weerstand Bundel</title>
+    <variant_title>500 gr. + 180 capsules</variant_title>
+    <handle>kala-health-betere-weerstand-bundel</handle>
+    <option1>500 gr. + 180 capsules</option1>
+    <price>119.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/betere-weerstand-bundel/?attribute_pa_aantal=500-gr-180-capsules</url>
+  </product>
+  <product>
+    <sku>1900202</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Betere Weerstand Bundel</title>
+    <variant_title>500 gr. + 60 capsules</variant_title>
+    <handle>kala-health-betere-weerstand-bundel</handle>
+    <option1>500 gr. + 60 capsules</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/betere-weerstand-bundel/?attribute_pa_aantal=500-gr-60-capsules</url>
+  </product>
+  <product>
+    <sku>1500115</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Reishi BIO Poeder</title>
+    <variant_title>500 gram</variant_title>
+    <handle>kala-health-reishi-bio-poeder</handle>
+    <option1>500 gram</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/reishi-bio-poeder/?attribute_pa_aantal=500-gram</url>
+  </product>
+  <product>
+    <sku>0421250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Reishi BIO Poeder</title>
+    <variant_title>250 gram</variant_title>
+    <handle>kala-health-reishi-bio-poeder</handle>
+    <option1>250 gram</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/reishi-bio-poeder/?attribute_pa_aantal=250-gram</url>
+  </product>
+  <product>
+    <sku>1500615</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Maitake BIO Poeder</title>
+    <variant_title>500 gram</variant_title>
+    <handle>kala-health-maitake-bio-poeder</handle>
+    <option1>500 gram</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/maitake-bio-poeder/?attribute_pa_aantal=500-gram</url>
+  </product>
+  <product>
+    <sku>0451250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Maitake BIO Poeder</title>
+    <variant_title>250 gram</variant_title>
+    <handle>kala-health-maitake-bio-poeder</handle>
+    <option1>250 gram</option1>
+    <price>37.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/maitake-bio-poeder/?attribute_pa_aantal=250-gram</url>
+  </product>
+  <product>
+    <sku>1500320</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Cordyceps Poeder BIO</title>
+    <variant_title>1.000 gram</variant_title>
+    <handle>kala-health-cordyceps-poeder-bio</handle>
+    <option1>1.000 gram</option1>
+    <price>149.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/cordyceps-bio-poeder/?attribute_pa_aantal=1-000-gram</url>
+  </product>
+  <product>
+    <sku>0401500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Cordyceps Poeder BIO</title>
+    <variant_title>500 gram</variant_title>
+    <handle>kala-health-cordyceps-poeder-bio</handle>
+    <option1>500 gram</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/cordyceps-bio-poeder/?attribute_pa_aantal=500-gram</url>
+  </product>
+  <product>
+    <sku>1500216</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Chaga BIO Poeder</title>
+    <variant_title>350 gram</variant_title>
+    <handle>kala-health-chaga-bio-poeder</handle>
+    <option1>350 gram</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/chaga-bio-poeder/?attribute_pa_aantal=350-gram-2</url>
+  </product>
+  <product>
+    <sku>0411175</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Chaga BIO Poeder</title>
+    <variant_title>175 gram</variant_title>
+    <handle>kala-health-chaga-bio-poeder</handle>
+    <option1>175 gram</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/chaga-bio-poeder/?attribute_pa_aantal=175-gram-2</url>
+  </product>
+  <product>
+    <sku>1906030</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Akkermansia Muciniphila Capsules</title>
+    <variant_title>Standaard</variant_title>
+    <handle>kala-health-akkermansia-muciniphila-capsules</handle>
+    <option1>Standaard</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/akkermansia-muciniphila-capsules/</url>
+  </product>
+  <product>
+    <sku>0350500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder Matcha</title>
+    <variant_title>500 gr.</variant_title>
+    <handle>kala-health-optimsm-poeder-matcha</handle>
+    <option1>500 gr.</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/product-optimsm-poeder-matcha/?attribute_pa_aantal=500-gr</url>
+  </product>
+  <product>
+    <sku>0350250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder Matcha</title>
+    <variant_title>250 gr.</variant_title>
+    <handle>kala-health-optimsm-poeder-matcha</handle>
+    <option1>250 gr.</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/product-optimsm-poeder-matcha/?attribute_pa_aantal=250-gr</url>
+  </product>
+  <product>
+    <sku>0360500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder Perzik</title>
+    <variant_title>500 gr.</variant_title>
+    <handle>kala-health-optimsm-poeder-perzik</handle>
+    <option1>500 gr.</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-poeder-perzik/?attribute_pa_aantal=500-gr</url>
+  </product>
+  <product>
+    <sku>0360250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder Perzik</title>
+    <variant_title>250 gr.</variant_title>
+    <handle>kala-health-optimsm-poeder-perzik</handle>
+    <option1>250 gr.</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-poeder-perzik/?attribute_pa_aantal=250-gr</url>
+  </product>
+  <product>
+    <sku>0340500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder Citroen</title>
+    <variant_title>500 gr.</variant_title>
+    <handle>kala-health-optimsm-poeder-citroen</handle>
+    <option1>500 gr.</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/product-optimsm-poeder-citroen/?attribute_pa_doelgroep=500-gr</url>
+  </product>
+  <product>
+    <sku>0340250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder Citroen</title>
+    <variant_title>250 gr.</variant_title>
+    <handle>kala-health-optimsm-poeder-citroen</handle>
+    <option1>250 gr.</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/product-optimsm-poeder-citroen/?attribute_pa_doelgroep=250-gr</url>
+  </product>
+  <product>
+    <sku>1700105</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Betere Huid Bundel</title>
+    <variant_title>180 caps + 200 ml gel</variant_title>
+    <handle>kala-health-betere-huid-bundel</handle>
+    <option1>180 caps + 200 ml gel</option1>
+    <price>154.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/betere-huid-bundel/?attribute_pa_aantal=180-caps-200-ml-gel</url>
+  </product>
+  <product>
+    <sku>1700102</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Betere Huid Bundel</title>
+    <variant_title>60 caps + 200 ml gel</variant_title>
+    <handle>kala-health-betere-huid-bundel</handle>
+    <option1>60 caps + 200 ml gel</option1>
+    <price>89.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/betere-huid-bundel/?attribute_pa_aantal=60-caps-200-ml-gel</url>
+  </product>
+  <product>
+    <sku>1800105</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Beter Slapen Bundel</title>
+    <variant_title>500 gr. + 180 capsules</variant_title>
+    <handle>kala-health-beter-slapen-bundel</handle>
+    <option1>500 gr. + 180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/beter-slapen-bundel/?attribute_pa_aantal=500-gr-180-capsules</url>
+  </product>
+  <product>
+    <sku>1800102</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Beter Slapen Bundel</title>
+    <variant_title>500 gr. + 60 capsules</variant_title>
+    <handle>kala-health-beter-slapen-bundel</handle>
+    <option1>500 gr. + 60 capsules</option1>
+    <price>54.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/beter-slapen-bundel/?attribute_pa_aantal=500-gr-60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-35686</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Dagelijkse Basis Bundel</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-dagelijkse-basis-bundel</handle>
+    <option1>180 capsules</option1>
+    <price>154.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/dagelijkse-basis-bundel/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-35685</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Dagelijkse Basis Bundel</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-dagelijkse-basis-bundel</handle>
+    <option1>60 capsules</option1>
+    <price>64.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/dagelijkse-basis-bundel/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-35269</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Bisglycinaat Capsules</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-magnesium-bisglycinaat-capsules</handle>
+    <option1>180 capsules</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/kalahealth-nl-product-magnesium-bis-caps/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-35268</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Bisglycinaat Capsules</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-magnesium-bisglycinaat-capsules</handle>
+    <option1>60 capsules</option1>
+    <price>18.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/kalahealth-nl-product-magnesium-bis-caps/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-33848</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Liposomale Magnesium capsules</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomale-magnesium-capsules</handle>
+    <option1>180 capsules</option1>
+    <price>89.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-magnesium-capsules/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-33847</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Liposomale Magnesium capsules</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomale-magnesium-capsules</handle>
+    <option1>60 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-magnesium-capsules/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-33743</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Ashwagandha Extract</title>
+    <variant_title>Standaard</variant_title>
+    <handle>kala-health-ashwagandha-extract</handle>
+    <option1>Standaard</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/ashwagandha-extract-capsules/</url>
+  </product>
+  <product>
+    <sku>KALA-33403</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Bisglycinaat Tabletten 100 mg</title>
+    <variant_title>180 tabletten</variant_title>
+    <handle>kala-health-magnesium-bisglycinaat-tabletten-100-mg</handle>
+    <option1>180 tabletten</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>true</in_actie>
+    <url>https://www.kalahealth.nl/product/product-magnesium-bisglycinaat-tabletten-100mg/?attribute_pa_aantal=180-tabletten</url>
+  </product>
+  <product>
+    <sku>KALA-33402</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Bisglycinaat Tabletten 100 mg</title>
+    <variant_title>60 tabletten</variant_title>
+    <handle>kala-health-magnesium-bisglycinaat-tabletten-100-mg</handle>
+    <option1>60 tabletten</option1>
+    <price>14.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>true</in_actie>
+    <url>https://www.kalahealth.nl/product/product-magnesium-bisglycinaat-tabletten-100mg/?attribute_pa_aantal=60-tabletten</url>
+  </product>
+  <product>
+    <sku>KALA-32315</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Complex poeder + Vitamine D3 + K2 (50 mcg/ 75 mcg)</title>
+    <variant_title>60 capsules + 500 gr.</variant_title>
+    <handle>kala-health-magnesium-complex-poeder-plus-vitamine-d3-plus-k2-50-mcg-75-mcg</handle>
+    <option1>60 capsules + 500 gr.</option1>
+    <price>54.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-complex-d3-k2-bundel/?attribute_pa_aantal=60-capsules-500-gr</url>
+  </product>
+  <product>
+    <sku>KALA-32314</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Complex poeder + Vitamine D3 + K2 (50 mcg/ 75 mcg)</title>
+    <variant_title>180 capsules + 500 gr.</variant_title>
+    <handle>kala-health-magnesium-complex-poeder-plus-vitamine-d3-plus-k2-50-mcg-75-mcg</handle>
+    <option1>180 capsules + 500 gr.</option1>
+    <price>64.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-complex-d3-k2-bundel/?attribute_pa_aantal=180-capsules-500-gr-2</url>
+  </product>
+  <product>
+    <sku>KALA-32271</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder + Groenlipmosselolie (Aspitol®)</title>
+    <variant_title>180 capsules + 500 gram</variant_title>
+    <handle>kala-health-optimsm-poeder-plus-groenlipmosselolie-aspitol</handle>
+    <option1>180 capsules + 500 gram</option1>
+    <price>124.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/aspitol-groenlipmossel-optimsm-bundel/?attribute_pa_aantal=180-capsules-500-gram</url>
+  </product>
+  <product>
+    <sku>KALA-32270</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder + Groenlipmosselolie (Aspitol®)</title>
+    <variant_title>60 capsules + 250 gram</variant_title>
+    <handle>kala-health-optimsm-poeder-plus-groenlipmosselolie-aspitol</handle>
+    <option1>60 capsules + 250 gram</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/aspitol-groenlipmossel-optimsm-bundel/?attribute_pa_aantal=60-capsules-250-gram</url>
+  </product>
+  <product>
+    <sku>KALA-32232</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Huid, Haar &amp; Nagel + OptiMSM® Gel</title>
+    <variant_title>180 capsules + 200 ml</variant_title>
+    <handle>kala-health-huid-haar-en-nagel-plus-optimsm-gel</handle>
+    <option1>180 capsules + 200 ml</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/powerduo-huid-haar-nagels-msm-gel/?attribute_pa_aantal=180-capsules-200-ml</url>
+  </product>
+  <product>
+    <sku>KALA-32228</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Huid, Haar &amp; Nagel + OptiMSM® Gel</title>
+    <variant_title>60 capsules + 200 ml</variant_title>
+    <handle>kala-health-huid-haar-en-nagel-plus-optimsm-gel</handle>
+    <option1>60 capsules + 200 ml</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/powerduo-huid-haar-nagels-msm-gel/?attribute_pa_aantal=60-capsules-200-ml</url>
+  </product>
+  <product>
+    <sku>KALA-31788</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Rhodiola Extract</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-rhodiola-extract</handle>
+    <option1>180 capsules</option1>
+    <price>89.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/rhodiola-rosea-extract-400mg/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-31787</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Rhodiola Extract</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-rhodiola-extract</handle>
+    <option1>60 capsules</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/rhodiola-rosea-extract-400mg/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-31536</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>The Akkermansia Company® Darmcomfort</title>
+    <variant_title>30 tabletten</variant_title>
+    <handle>kala-health-the-akkermansia-company-darmcomfort</handle>
+    <option1>30 tabletten</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/the-akkermansia-company-darmcomfort/?attribute_pa_aantal=30-tabletten</url>
+  </product>
+  <product>
+    <sku>KALA-31246</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Vitamine D3 + K2 50mcg/ 75mcg</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vitamine-d3-plus-k2-50mcg-75mcg</handle>
+    <option1>60 capsules</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-d3-2000iu-k2-75-mcg/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1403080</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine D3 + K2 50mcg/ 75mcg</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vitamine-d3-plus-k2-50mcg-75mcg</handle>
+    <option1>180 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-d3-2000iu-k2-75-mcg/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-26392</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Liposomale Curcumine</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomale-curcumine</handle>
+    <option1>60 capsules</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-curcumine/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-26346</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Liposomale Curcumine</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomale-curcumine</handle>
+    <option1>180 capsules</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-curcumine/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-26099</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Chaga Bio</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-chaga-bio</handle>
+    <option1>60 capsules</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/chaga-bio/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-26098</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Chaga Bio</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-chaga-bio</handle>
+    <option1>180 capsules</option1>
+    <price>74.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/chaga-bio/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>3301180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Probiotica</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-probiotica</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/probiotica/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>3301060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Probiotica</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-probiotica</handle>
+    <option1>60 capsules</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/probiotica/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-25925</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Liposomaal B-complex</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomaal-b-complex</handle>
+    <option1>180 capsules</option1>
+    <price>54.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>true</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomaal-b-complex/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-25924</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Liposomaal B-complex</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomaal-b-complex</handle>
+    <option1>60 capsules</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>true</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomaal-b-complex/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1508030</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Annatto Vitamine E</title>
+    <variant_title>30 capsules</variant_title>
+    <handle>kala-health-annatto-vitamine-e</handle>
+    <option1>30 capsules</option1>
+    <price>46.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-annatto/?attribute_pa_aantal=30-capsules-2</url>
+  </product>
+  <product>
+    <sku>1508060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Annatto Vitamine E</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-annatto-vitamine-e</handle>
+    <option1>60 capsules</option1>
+    <price>84.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-annatto/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1508180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Annatto Vitamine E</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-annatto-vitamine-e</handle>
+    <option1>180 capsules</option1>
+    <price>194.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-annatto/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-17549</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Citraat Tabletten</title>
+    <variant_title>180 tabletten</variant_title>
+    <handle>kala-health-magnesium-citraat-tabletten</handle>
+    <option1>180 tabletten</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-citraat-tabletten/?attribute_pa_aantal=180-tabletten</url>
+  </product>
+  <product>
+    <sku>KALA-17548</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Citraat Tabletten</title>
+    <variant_title>60 tabletten</variant_title>
+    <handle>kala-health-magnesium-citraat-tabletten</handle>
+    <option1>60 tabletten</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-citraat-tabletten/?attribute_pa_aantal=60-tabletten</url>
+  </product>
+  <product>
+    <sku>KALA-15173</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Creatine Monohydraat Poeder</title>
+    <variant_title>250g</variant_title>
+    <handle>kala-health-creatine-monohydraat-poeder</handle>
+    <option1>250g</option1>
+    <price>16.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>true</in_actie>
+    <url>https://www.kalahealth.nl/product/creatine-monohydraat-poeder/?attribute_pa_formaat=250g</url>
+  </product>
+  <product>
+    <sku>KALA-15165</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Creatine Monohydraat Poeder</title>
+    <variant_title>500g</variant_title>
+    <handle>kala-health-creatine-monohydraat-poeder</handle>
+    <option1>500g</option1>
+    <price>27.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>true</in_actie>
+    <url>https://www.kalahealth.nl/product/creatine-monohydraat-poeder/?attribute_pa_formaat=500g</url>
+  </product>
+  <product>
+    <sku>KALA-12111</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Gebufferde Vitamine C</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-gebufferde-vitamine-c</handle>
+    <option1>60 capsules</option1>
+    <price>19.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/gebufferde-vitamine-c-capsules2/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-12082</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Gebufferde Vitamine C</title>
+    <variant_title>365 capsules</variant_title>
+    <handle>kala-health-gebufferde-vitamine-c</handle>
+    <option1>365 capsules</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/gebufferde-vitamine-c-capsules2/?attribute_pa_aantal=365-capsules-2</url>
+  </product>
+  <product>
+    <sku>KALA-12081</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Gebufferde Vitamine C</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-gebufferde-vitamine-c</handle>
+    <option1>180 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/gebufferde-vitamine-c-capsules2/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>KALA-12039</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Bisglycinaat Tabletten 200 mg</title>
+    <variant_title>180 tabletten</variant_title>
+    <handle>kala-health-magnesium-bisglycinaat-tabletten-200-mg</handle>
+    <option1>180 tabletten</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesiumbisglycinaat-tabletten/?attribute_pa_aantal=180-tabletten</url>
+  </product>
+  <product>
+    <sku>KALA-12038</sku>
+    <sku_bron>toegekend</sku_bron>
+    <barcode/>
+    <title>Magnesium Bisglycinaat Tabletten 200 mg</title>
+    <variant_title>60 tabletten</variant_title>
+    <handle>kala-health-magnesium-bisglycinaat-tabletten-200-mg</handle>
+    <option1>60 tabletten</option1>
+    <price>18.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesiumbisglycinaat-tabletten/?attribute_pa_aantal=60-tabletten</url>
+  </product>
+  <product>
+    <sku>1203180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomale Ester-C®</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-liposomale-ester-c</handle>
+    <option1>180 capsules</option1>
+    <price>99.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-ester-c/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1203060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Liposomale Ester-C®</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-liposomale-ester-c</handle>
+    <option1>60 capsules</option1>
+    <price>44.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/liposomale-ester-c/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1400101</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>The Akkermansia Company® Gewichtscontrole</title>
+    <variant_title>30 tabletten</variant_title>
+    <handle>kala-health-the-akkermansia-company-gewichtscontrole</handle>
+    <option1>30 tabletten</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/the-akkermansia-company/?attribute_pa_aantal=30-tabletten</url>
+  </product>
+  <product>
+    <sku>1730500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium Complex Poeder</title>
+    <variant_title>500g</variant_title>
+    <handle>kala-health-magnesium-complex-poeder</handle>
+    <option1>500g</option1>
+    <price>44.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-complex-poeder/?attribute_pa_formaat=500g</url>
+  </product>
+  <product>
+    <sku>1731000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium Complex Poeder</title>
+    <variant_title>1kg</variant_title>
+    <handle>kala-health-magnesium-complex-poeder</handle>
+    <option1>1kg</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-complex-poeder/?attribute_pa_formaat=1kg</url>
+  </product>
+  <product>
+    <sku>1220500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Gebufferde Vitamine C Poeder</title>
+    <variant_title>500g</variant_title>
+    <handle>kala-health-gebufferde-vitamine-c-poeder</handle>
+    <option1>500g</option1>
+    <price>19.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>true</in_actie>
+    <url>https://www.kalahealth.nl/product/gebufferde-vitamine-c-poeder/?attribute_pa_formaat=500g</url>
+  </product>
+  <product>
+    <sku>1221000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Gebufferde Vitamine C Poeder</title>
+    <variant_title>1kg</variant_title>
+    <handle>kala-health-gebufferde-vitamine-c-poeder</handle>
+    <option1>1kg</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>true</in_actie>
+    <url>https://www.kalahealth.nl/product/gebufferde-vitamine-c-poeder/?attribute_pa_formaat=1kg</url>
+  </product>
+  <product>
+    <sku>1750500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium Citraat Poeder</title>
+    <variant_title>500g</variant_title>
+    <handle>kala-health-magnesium-citraat-poeder</handle>
+    <option1>500g</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-citraat-poeder/?attribute_pa_formaat=500g</url>
+  </product>
+  <product>
+    <sku>1751000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium Citraat Poeder</title>
+    <variant_title>1kg</variant_title>
+    <handle>kala-health-magnesium-citraat-poeder</handle>
+    <option1>1kg</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-citraat-poeder/?attribute_pa_formaat=1kg</url>
+  </product>
+  <product>
+    <sku>1740500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium Bisglycinaat Poeder</title>
+    <variant_title>500g</variant_title>
+    <handle>kala-health-magnesium-bisglycinaat-poeder</handle>
+    <option1>500g</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesiumbisglycinaat-poeder/?attribute_pa_formaat=500g</url>
+  </product>
+  <product>
+    <sku>1741000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium Bisglycinaat Poeder</title>
+    <variant_title>1kg</variant_title>
+    <handle>kala-health-magnesium-bisglycinaat-poeder</handle>
+    <option1>1kg</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesiumbisglycinaat-poeder/?attribute_pa_formaat=1kg</url>
+  </product>
+  <product>
+    <sku>1701180-1-1</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium Complex</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-magnesium-complex</handle>
+    <option1>180 capsules</option1>
+    <price>54.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-complex/?attribute_aantal=180+capsules</url>
+  </product>
+  <product>
+    <sku>1701060-1-1</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium Complex</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-magnesium-complex</handle>
+    <option1>60 capsules</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-complex/?attribute_aantal=60+capsules</url>
+  </product>
+  <product>
+    <sku>1701180-1</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium &amp; Calcium</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-magnesium-en-calcium</handle>
+    <option1>180 capsules</option1>
+    <price>54.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-calcium/?attribute_aantal=180+capsules</url>
+  </product>
+  <product>
+    <sku>1701060-1</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Magnesium &amp; Calcium</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-magnesium-en-calcium</handle>
+    <option1>60 capsules</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/magnesium-calcium/?attribute_aantal=60+capsules</url>
+  </product>
+  <product>
+    <sku>1504180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E T8 MAX 400IE/50mg</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vitamine-e-t8-max-400ie-50mg</handle>
+    <option1>180 capsules</option1>
+    <price>99.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-t8-max/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1504060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E T8 MAX 400IE/50mg</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vitamine-e-t8-max-400ie-50mg</handle>
+    <option1>60 capsules</option1>
+    <price>44.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-t8-max/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1505180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E Strong 450IE/100mg</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vitamine-e-strong-450ie-100mg</handle>
+    <option1>180 capsules</option1>
+    <price>119.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-strong/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1505060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E Strong 450IE/100mg</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vitamine-e-strong-450ie-100mg</handle>
+    <option1>60 capsules</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-strong/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1507030</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E Ultra Tocotriënol</title>
+    <variant_title>30 capsules</variant_title>
+    <handle>kala-health-vitamine-e-ultra-tocotrienol</handle>
+    <option1>30 capsules</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-ultra-tocotrienol/?attribute_pa_aantal=30-capsules-2</url>
+  </product>
+  <product>
+    <sku>1507180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E Ultra Tocotriënol</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vitamine-e-ultra-tocotrienol</handle>
+    <option1>180 capsules</option1>
+    <price>199.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-ultra-tocotrienol/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1507060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E Ultra Tocotriënol</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vitamine-e-ultra-tocotrienol</handle>
+    <option1>60 capsules</option1>
+    <price>89.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-ultra-tocotrienol/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1506180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E Ultra Tocoferol</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vitamine-e-ultra-tocoferol</handle>
+    <option1>180 capsules</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-ultra-tocopherolen/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1506060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E Ultra Tocoferol</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vitamine-e-ultra-tocoferol</handle>
+    <option1>60 capsules</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-ultra-tocopherolen/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1215000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine C Poeder (L-Ascorbinezuur)</title>
+    <variant_title>5kg</variant_title>
+    <handle>kala-health-vitamine-c-poeder-l-ascorbinezuur</handle>
+    <option1>5kg</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-c-poeder/?attribute_pa_formaat=5kg</url>
+  </product>
+  <product>
+    <sku>1211000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine C Poeder (L-Ascorbinezuur)</title>
+    <variant_title>1kg</variant_title>
+    <handle>kala-health-vitamine-c-poeder-l-ascorbinezuur</handle>
+    <option1>1kg</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-c-poeder/?attribute_pa_formaat=1kg</url>
+  </product>
+  <product>
+    <sku>1210500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine C Poeder (L-Ascorbinezuur)</title>
+    <variant_title>500g</variant_title>
+    <handle>kala-health-vitamine-c-poeder-l-ascorbinezuur</handle>
+    <option1>500g</option1>
+    <price>15.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-c-poeder/?attribute_pa_formaat=500g</url>
+  </product>
+  <product>
+    <sku>1801180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Natuurlijke Multivitamine</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-natuurlijke-multivitamine</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/natuurlijke-dagelijkse-multivitamine/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1801060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Natuurlijke Multivitamine</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-natuurlijke-multivitamine</handle>
+    <option1>60 capsules</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/natuurlijke-dagelijkse-multivitamine/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>0201180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® tabletten</title>
+    <variant_title>180 tabletten</variant_title>
+    <handle>kala-health-optimsm-tabletten</handle>
+    <option1>180 tabletten</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-tabletten/?attribute_pa_aantal=180-tabletten</url>
+  </product>
+  <product>
+    <sku>0201060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® tabletten</title>
+    <variant_title>60 tabletten</variant_title>
+    <handle>kala-health-optimsm-tabletten</handle>
+    <option1>60 tabletten</option1>
+    <price>14.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-tabletten/?attribute_pa_aantal=60-tabletten</url>
+  </product>
+  <product>
+    <sku>1903060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Plantaardige voedingsvezel capsules</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-plantaardige-voedingsvezel-capsules</handle>
+    <option1>60 capsules</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/plantaardige-voedingsvezels-capsules/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1903180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Plantaardige voedingsvezel capsules</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-plantaardige-voedingsvezel-capsules</handle>
+    <option1>180 capsules</option1>
+    <price>64.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/plantaardige-voedingsvezels-capsules/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>523060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Huid Haar Nagel</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-huid-haar-nagel</handle>
+    <option1>60 capsules</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/huid-haar-nagel-capsules/?attribute_pa_aantal=60-capsules-3</url>
+  </product>
+  <product>
+    <sku>523180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Huid Haar Nagel</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-huid-haar-nagel</handle>
+    <option1>180 capsules</option1>
+    <price>64.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/huid-haar-nagel-capsules/?attribute_pa_aantal=180-capsules-3</url>
+  </product>
+  <product>
+    <sku>501060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vegan Omega 3</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vegan-omega-3</handle>
+    <option1>60 capsules</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vegan-omega-3/?attribute_aantal=60+capsules</url>
+  </product>
+  <product>
+    <sku>501180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vegan Omega 3</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vegan-omega-3</handle>
+    <option1>180 capsules</option1>
+    <price>99.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vegan-omega-3/?attribute_aantal=180+capsules</url>
+  </product>
+  <product>
+    <sku>2001060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Groenlipmosselolie (Aspitol®)</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-groenlipmosselolie-aspitol</handle>
+    <option1>60 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/groenlipmosselolie/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>2001180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Groenlipmosselolie (Aspitol®)</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-groenlipmosselolie-aspitol</handle>
+    <option1>180 capsules</option1>
+    <price>99.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/groenlipmosselolie/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>3101060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Krillolie</title>
+    <variant_title>60 softgels</variant_title>
+    <handle>kala-health-krillolie</handle>
+    <option1>60 softgels</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/krillolie/?attribute_aantal=60+softgels</url>
+  </product>
+  <product>
+    <sku>3101180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Krillolie</title>
+    <variant_title>180 softgels</variant_title>
+    <handle>kala-health-krillolie</handle>
+    <option1>180 softgels</option1>
+    <price>59.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/krillolie/?attribute_aantal=180+softgels</url>
+  </product>
+  <product>
+    <sku>605000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Glucosamine HCl (NaturGlux®)</title>
+    <variant_title>5kg</variant_title>
+    <handle>kala-health-glucosamine-hcl-naturglux</handle>
+    <option1>5kg</option1>
+    <price>199.00</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/glucosamine-hcl-poeder/?attribute_pa_formaat=5kg</url>
+  </product>
+  <product>
+    <sku>600050</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Glucosamine HCl (NaturGlux®)</title>
+    <variant_title>500g</variant_title>
+    <handle>kala-health-glucosamine-hcl-naturglux</handle>
+    <option1>500g</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/glucosamine-hcl-poeder/?attribute_pa_formaat=500g</url>
+  </product>
+  <product>
+    <sku>601000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Glucosamine HCl (NaturGlux®)</title>
+    <variant_title>1kg</variant_title>
+    <handle>kala-health-glucosamine-hcl-naturglux</handle>
+    <option1>1kg</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/glucosamine-hcl-poeder/?attribute_pa_formaat=1kg</url>
+  </product>
+  <product>
+    <sku>1004060-V</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>MSMGC Vegan</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-msmgc-vegan</handle>
+    <option1>60 capsules</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/msmgc-vegan/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1004180-V</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>MSMGC Vegan</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-msmgc-vegan</handle>
+    <option1>180 capsules</option1>
+    <price>99.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/msmgc-vegan/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1700020</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>CM Crème (MSM)</title>
+    <variant_title>Standaard</variant_title>
+    <handle>kala-health-cm-creme-msm</handle>
+    <option1>Standaard</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>false</available>
+    <voorraad>uitverkocht</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/cm-creme-msm/</url>
+  </product>
+  <product>
+    <sku>1001060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>MSMGC Tabletten</title>
+    <variant_title>60 tabletten</variant_title>
+    <handle>kala-health-msmgc-tabletten</handle>
+    <option1>60 tabletten</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/msmgc/?attribute_pa_aantal=60-tabletten</url>
+  </product>
+  <product>
+    <sku>1001180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>MSMGC Tabletten</title>
+    <variant_title>180 tabletten</variant_title>
+    <handle>kala-health-msmgc-tabletten</handle>
+    <option1>180 tabletten</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/msmgc/?attribute_pa_aantal=180-tabletten</url>
+  </product>
+  <product>
+    <sku>212060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Capsules</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-optimsm-capsules</handle>
+    <option1>60 capsules</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-capsules/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>212180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Capsules</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-optimsm-capsules</handle>
+    <option1>180 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-capsules/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1901060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Natuurlijke Enzymen</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-natuurlijke-enzymen</handle>
+    <option1>60 capsules</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/spijsverteringsenzymen/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1901180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Natuurlijke Enzymen</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-natuurlijke-enzymen</handle>
+    <option1>180 capsules</option1>
+    <price>64.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/spijsverteringsenzymen/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1003060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>MSMGC Plus Capsules</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-msmgc-plus-capsules</handle>
+    <option1>60 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/msmgc-plus/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1003180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>MSMGC Plus Capsules</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-msmgc-plus-capsules</handle>
+    <option1>180 capsules</option1>
+    <price>99.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/msmgc-plus/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>3202060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Astaxanthine</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-astaxanthine</handle>
+    <option1>60 capsules</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/astaxanthine/?attribute_aantal=60+capsules</url>
+  </product>
+  <product>
+    <sku>3202180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Astaxanthine</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-astaxanthine</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/astaxanthine/?attribute_aantal=180+capsules</url>
+  </product>
+  <product>
+    <sku>1601060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Co-enzym Q10</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-co-enzym-q10</handle>
+    <option1>60 capsules</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/co-enzym-q10/?attribute_aantal=60+capsules</url>
+  </product>
+  <product>
+    <sku>1601180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Co-enzym Q10</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-co-enzym-q10</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/co-enzym-q10/?attribute_aantal=180+capsules</url>
+  </product>
+  <product>
+    <sku>401060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vegan Cordyceps BIO</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vegan-cordyceps-bio</handle>
+    <option1>60 capsules</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/cordyceps-bio/?attribute_pa_aantal=60-capsules-2</url>
+  </product>
+  <product>
+    <sku>401180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vegan Cordyceps BIO</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vegan-cordyceps-bio</handle>
+    <option1>180 capsules</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/cordyceps-bio/?attribute_pa_aantal=180-capsules-2</url>
+  </product>
+  <product>
+    <sku>431060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vegan Mushroommix BIO</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vegan-mushroommix-bio</handle>
+    <option1>60 capsules</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/mushroom-mix/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>431180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vegan Mushroommix BIO</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vegan-mushroommix-bio</handle>
+    <option1>180 capsules</option1>
+    <price>69.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/mushroom-mix/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1701060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Mineralen Complex</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-mineralen-complex</handle>
+    <option1>60 capsules</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/mineralen-complex/?attribute_aantal=60+capsules</url>
+  </product>
+  <product>
+    <sku>1701180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Mineralen Complex</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-mineralen-complex</handle>
+    <option1>180 capsules</option1>
+    <price>54.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/mineralen-complex/?attribute_aantal=180+capsules</url>
+  </product>
+  <product>
+    <sku>1401365</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine D3 3000 IU</title>
+    <variant_title>365 capsules</variant_title>
+    <handle>kala-health-vitamine-d3-3000-iu</handle>
+    <option1>365 capsules</option1>
+    <price>44.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-d3-3000-iu/?attribute_pa_aantal=365-capsules-2</url>
+  </product>
+  <product>
+    <sku>1401180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine D3 3000 IU</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vitamine-d3-3000-iu</handle>
+    <option1>180 capsules</option1>
+    <price>24.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-d3-3000-iu/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1503060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E T8 Vegan</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vitamine-e-t8-vegan</handle>
+    <option1>60 capsules</option1>
+    <price>39.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-t8-vegan/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
+    <sku>1503180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E T8 Vegan</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vitamine-e-t8-vegan</handle>
+    <option1>180 capsules</option1>
+    <price>89.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-t8-vegan/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1201060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine C (Ester-C®)</title>
+    <variant_title>60 tabletten</variant_title>
+    <handle>kala-health-vitamine-c-ester-c</handle>
+    <option1>60 tabletten</option1>
+    <price>34.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/ester-c/?attribute_pa_aantal=60-tabletten</url>
+  </product>
+  <product>
+    <sku>1201180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine C (Ester-C®)</title>
+    <variant_title>180 tabletten</variant_title>
+    <handle>kala-health-vitamine-c-ester-c</handle>
+    <option1>180 tabletten</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/ester-c/?attribute_pa_aantal=180-tabletten</url>
+  </product>
+  <product>
+    <sku>0900080</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Gel</title>
+    <variant_title>200 ml</variant_title>
+    <handle>kala-health-optimsm-gel</handle>
+    <option1>200 ml</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-gel/?attribute_pa_aantal=200-ml</url>
+  </product>
+  <product>
+    <sku>0900100</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Gel</title>
+    <variant_title>100 ml</variant_title>
+    <handle>kala-health-optimsm-gel</handle>
+    <option1>100 ml</option1>
+    <price>19.95</price>
+    <compare_at_price/>
+    <available>false</available>
+    <voorraad>nabestelling</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-gel/?attribute_pa_aantal=100-ml</url>
+  </product>
+  <product>
+    <sku>1501180</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E T8 Compleet</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-vitamine-e-t8-compleet</handle>
+    <option1>180 capsules</option1>
+    <price>99.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-t8-compleet/?attribute_aantal=180+capsules</url>
+  </product>
+  <product>
+    <sku>1501060</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Vitamine E T8 Compleet</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-vitamine-e-t8-compleet</handle>
+    <option1>60 capsules</option1>
+    <price>44.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/vitamine-e-t8-compleet/?attribute_aantal=60+capsules</url>
+  </product>
+  <product>
+    <sku>305000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder</title>
+    <variant_title>5kg</variant_title>
+    <handle>kala-health-optimsm-poeder</handle>
+    <option1>5kg</option1>
+    <price>249.00</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-poeder/?attribute_pa_formaat=5kg</url>
+  </product>
+  <product>
+    <sku>300500</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder</title>
+    <variant_title>500g</variant_title>
+    <handle>kala-health-optimsm-poeder</handle>
+    <option1>500g</option1>
+    <price>49.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-poeder/?attribute_pa_formaat=500g</url>
+  </product>
+  <product>
+    <sku>300250</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder</title>
+    <variant_title>250g</variant_title>
+    <handle>kala-health-optimsm-poeder</handle>
+    <option1>250g</option1>
+    <price>29.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-poeder/?attribute_pa_formaat=250g</url>
+  </product>
+  <product>
+    <sku>301000</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>OptiMSM® Poeder</title>
+    <variant_title>1kg</variant_title>
+    <handle>kala-health-optimsm-poeder</handle>
+    <option1>1kg</option1>
+    <price>79.95</price>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/optimsm-poeder/?attribute_pa_formaat=1kg</url>
+  </product>
+</products>

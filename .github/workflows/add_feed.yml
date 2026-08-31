@@ -1,0 +1,45 @@
+name: Kala ADD-feed
+
+# De ADD-feed bevat alle productinfo (beschrijving met ingredienten/dosering/
+# claims, afbeeldingen, varianten) om met Stock Sync NIEUWE producten aan te
+# maken. Draait 1x per week -- nieuwe producten verschijnen niet vaak.
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Python instellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Dependencies installeren
+        run: pip install -r requirements.txt
+      - name: ADD-feed scraper draaien
+        run: python add_scraper.py
+      # Ook de update-feed opnieuw draaien (6 seconden). De invariantentest
+      # vergelijkt de SKU's van beide feeds; met een update-feed van gisteravond
+      # zou een product dat vannacht bij Kala verscheen die test laten omvallen
+      # op iets wat geen fout is.
+      - name: UPDATE-feed meenemen
+        run: python scraper.py
+      # Toetst ook of er geen contactgegevens of winkelpraat van Kala in de
+      # teksten zijn blijven staan. Faalt dit, dan wordt er niets gecommit.
+      - name: Invarianten toetsen
+        run: python test_feed.py
+      - name: XML committen en pushen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kala_add_feed.xml kala_feed.xml kala_sku_map.json kala_overgeslagen.csv kala_geschrapt.csv kala_tekstbron.csv
+          git diff --staged --quiet || git commit -m "ADD-feed bijgewerkt: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
+          git push
