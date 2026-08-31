@@ -145,6 +145,9 @@ Liposomaal ijzersulfaat, microkristallijne cellulose (vulmiddel), hydroxypropylm
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>false</available>
         <voorraad>nabestelling</voorraad>
@@ -159,6 +162,9 @@ Liposomaal ijzersulfaat, microkristallijne cellulose (vulmiddel), hydroxypropylm
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>false</available>
         <voorraad>nabestelling</voorraad>
@@ -351,6 +357,9 @@ Tributyrine-complex (ButyraGen®), Lactobacillus rhamnosus GG, gedeeltelijk gehy
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -365,6 +374,9 @@ Tributyrine-complex (ButyraGen®), Lactobacillus rhamnosus GG, gedeeltelijk gehy
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -506,6 +518,9 @@ Quercetine, arabische gom (vulmiddel), lecithine van GMO-vrije zonnebloem (drage
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -520,6 +535,9 @@ Quercetine, arabische gom (vulmiddel), lecithine van GMO-vrije zonnebloem (drage
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -718,6 +736,9 @@ L-glutathion, arabische gom (vulmiddel), lecithine van GMO-vrije zonnebloem (dra
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>119.95</price>
+        <cost>55.02</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -732,6 +753,9 @@ L-glutathion, arabische gom (vulmiddel), lecithine van GMO-vrije zonnebloem (dra
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -879,6 +903,9 @@ L-glutathion, arabische gom (vulmiddel), lecithine van GMO-vrije zonnebloem (dra
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -893,6 +920,9 @@ L-glutathion, arabische gom (vulmiddel), lecithine van GMO-vrije zonnebloem (dra
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -1034,6 +1064,9 @@ L-glutathion, arabische gom (vulmiddel), lecithine van GMO-vrije zonnebloem (dra
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>129.95</price>
+        <cost>59.61</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -1048,6 +1081,9 @@ L-glutathion, arabische gom (vulmiddel), lecithine van GMO-vrije zonnebloem (dra
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -1229,6 +1265,9 @@ Microkristallijne cellulose, maltodextrine, fosfatidylcholine complex (zonnebloe
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -1243,6 +1282,9 @@ Microkristallijne cellulose, maltodextrine, fosfatidylcholine complex (zonnebloe
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>19.95</price>
+        <cost>9.15</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -1404,6 +1446,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -1822,6 +1867,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>184.95</price>
+        <cost>84.84</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -1836,6 +1884,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>84.95</price>
+        <cost>38.97</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -2223,6 +2274,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>159.95</price>
+        <cost>73.37</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -2237,6 +2291,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>94.95</price>
+        <cost>43.56</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -2411,6 +2468,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -2425,6 +2485,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>37.95</price>
+        <cost>17.41</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -2591,6 +2654,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -2605,6 +2671,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>37.95</price>
+        <cost>17.41</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -2925,6 +2994,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>119.95</price>
+        <cost>55.02</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -2939,6 +3011,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3105,6 +3180,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3119,6 +3197,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3285,6 +3366,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3299,6 +3383,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>37.95</price>
+        <cost>17.41</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3442,6 +3529,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>149.95</price>
+        <cost>68.78</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3456,6 +3546,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3620,6 +3713,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3634,6 +3730,9 @@ voedingsvezels&lt;/td&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -3849,6 +3948,9 @@ MCC gedraagt zich als een onverteerbare vezel. In de wetenschappelijke literatuu
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -4007,6 +4109,9 @@ MSM fijn poeder, natuurlijke smaakstof (matcha thee), maltodextrine, arabische g
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -4021,6 +4126,9 @@ MSM fijn poeder, natuurlijke smaakstof (matcha thee), maltodextrine, arabische g
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -4179,6 +4287,9 @@ MSM fijn poeder, natuurlijke smaakstof (ijsthee perzik), maltodextrine, arabisch
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -4193,6 +4304,9 @@ MSM fijn poeder, natuurlijke smaakstof (ijsthee perzik), maltodextrine, arabisch
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -4351,6 +4465,9 @@ MSM fijn poeder, natuurlijke smaakstof (citroen), maltodextrine, arabische gom, 
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -4365,6 +4482,9 @@ MSM fijn poeder, natuurlijke smaakstof (citroen), maltodextrine, arabische gom, 
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -4810,6 +4930,9 @@ De bundel is dus volledig vegan, duurzaam geproduceerd en gemaakt in Nederland.&
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>154.95</price>
+        <cost>71.08</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -4824,6 +4947,9 @@ De bundel is dus volledig vegan, duurzaam geproduceerd en gemaakt in Nederland.&
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>89.95</price>
+        <cost>41.26</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -5166,6 +5292,9 @@ Gebruik je bloedverdunners, ben je zwanger of geef je borstvoeding? Overleg voor
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -5180,6 +5309,9 @@ Gebruik je bloedverdunners, ben je zwanger of geef je borstvoeding? Overleg voor
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>54.95</price>
+        <cost>25.21</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -5783,6 +5915,9 @@ Een voedingssupplement is &lt;strong&gt;geen vervanging&lt;/strong&gt; van een g
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>154.95</price>
+        <cost>71.08</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -5797,6 +5932,9 @@ Een voedingssupplement is &lt;strong&gt;geen vervanging&lt;/strong&gt; van een g
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>64.95</price>
+        <cost>29.79</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -6075,6 +6213,9 @@ De tabletten bevatten daarnaast bioflavonoïden en hulpstoffen voor de compressi
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -6089,6 +6230,9 @@ De tabletten bevatten daarnaast bioflavonoïden en hulpstoffen voor de compressi
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>18.95</price>
+        <cost>8.69</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -6349,6 +6493,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>89.95</price>
+        <cost>41.26</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -6363,6 +6510,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -6556,6 +6706,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -6816,6 +6969,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -6830,6 +6986,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>14.95</price>
+        <cost>6.86</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7124,6 +7283,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>54.95</price>
+        <cost>25.21</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7138,6 +7300,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>64.95</price>
+        <cost>29.79</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7298,6 +7463,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>124.95</price>
+        <cost>57.32</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7312,6 +7480,9 @@ Vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7508,6 +7679,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>28.90</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>21</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7522,6 +7696,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>20.64</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>21</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7672,6 +7849,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>89.95</price>
+        <cost>41.26</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7686,6 +7866,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -7868,6 +8051,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -8077,6 +8263,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -8091,6 +8280,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -8325,6 +8517,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), curcumine, hydroxypropylm
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -8339,6 +8534,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), curcumine, hydroxypropylm
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -8430,6 +8628,9 @@ Gekweekt volgens biologische teelt.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -8444,6 +8645,9 @@ Gekweekt volgens biologische teelt.&lt;/p&gt;
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>74.95</price>
+        <cost>34.38</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -8655,6 +8859,9 @@ Gekweekt volgens biologische teelt.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -8669,6 +8876,9 @@ Gekweekt volgens biologische teelt.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9073,6 +9283,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>54.95</price>
+        <cost>25.21</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9087,6 +9300,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9297,6 +9513,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>46.95</price>
+        <cost>21.54</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9311,6 +9530,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>84.95</price>
+        <cost>38.97</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9325,6 +9547,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>194.95</price>
+        <cost>89.43</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9478,6 +9703,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9492,6 +9720,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9596,6 +9827,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>16.95</price>
+        <cost>7.78</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9610,6 +9844,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>27.95</price>
+        <cost>12.82</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9725,6 +9962,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>19.95</price>
+        <cost>9.15</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9739,6 +9979,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -9753,6 +9996,9 @@ Maltodextrine, fosfatidylcholine complex (zonnebloem), B-vitamines, hydroxypropy
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10013,6 +10259,9 @@ Dit voedingssupplement is niet geschikt voor kinderen tot en met 10 jaar.&lt;/p&
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10027,6 +10276,9 @@ Dit voedingssupplement is niet geschikt voor kinderen tot en met 10 jaar.&lt;/p&
         <sku_bron>toegekend</sku_bron>
         <barcode/>
         <price>18.95</price>
+        <cost>8.69</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10313,6 +10565,9 @@ Het resultaat: vitamine C die snel wordt opgenomen, lang aanwezig blijft, en goe
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>99.95</price>
+        <cost>45.85</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10327,6 +10582,9 @@ Het resultaat: vitamine C die snel wordt opgenomen, lang aanwezig blijft, en goe
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>44.95</price>
+        <cost>20.62</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10531,6 +10789,9 @@ Niet innemen op een nuchtere maag. De aanbevolen maximale dosering niet overschr
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10796,6 +11057,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>44.95</price>
+        <cost>20.62</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10810,6 +11074,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10931,6 +11198,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>19.95</price>
+        <cost>9.15</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -10945,6 +11215,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -11060,6 +11333,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -11074,6 +11350,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -11315,6 +11594,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -11329,6 +11611,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -11602,6 +11887,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>54.95</price>
+        <cost>25.21</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -11616,6 +11904,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -11879,6 +12170,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>54.95</price>
+        <cost>25.21</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -11893,6 +12187,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12189,6 +12486,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>99.95</price>
+        <cost>45.85</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12203,6 +12503,9 @@ Raadpleeg een deskundige alvorens supplementen te gebruiken in geval van zwanger
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>44.95</price>
+        <cost>20.62</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12358,6 +12661,9 @@ Vitamine E Vegan 450 IE (Strong)
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>119.95</price>
+        <cost>55.02</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12372,6 +12678,9 @@ Vitamine E Vegan 450 IE (Strong)
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12723,6 +13032,9 @@ Vitamine E Vegan 450 IE (Strong)
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12737,6 +13049,9 @@ Vitamine E Vegan 450 IE (Strong)
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>199.95</price>
+        <cost>91.72</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12751,6 +13066,9 @@ Vitamine E Vegan 450 IE (Strong)
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>89.95</price>
+        <cost>41.26</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12895,6 +13213,9 @@ Vitamine E Vegan Ultra Tocoferol
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -12909,6 +13230,9 @@ Vitamine E Vegan Ultra Tocoferol
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -13175,6 +13499,9 @@ Bijgesloten een maatschepje van 1,0 gram.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -13189,6 +13516,9 @@ Bijgesloten een maatschepje van 1,0 gram.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -13203,6 +13533,9 @@ Bijgesloten een maatschepje van 1,0 gram.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>15.95</price>
+        <cost>7.32</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -13837,6 +14170,9 @@ Algenconcentraat, zeewaterconcentraat, hydroxypropylmethylcellulose (plantaardig
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -13851,6 +14187,9 @@ Algenconcentraat, zeewaterconcentraat, hydroxypropylmethylcellulose (plantaardig
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -14168,6 +14507,9 @@ Algenconcentraat, zeewaterconcentraat, hydroxypropylmethylcellulose (plantaardig
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -14182,6 +14524,9 @@ Algenconcentraat, zeewaterconcentraat, hydroxypropylmethylcellulose (plantaardig
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>14.95</price>
+        <cost>6.86</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -14282,6 +14627,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -14296,6 +14644,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>64.95</price>
+        <cost>29.79</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -14461,6 +14812,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -14475,6 +14829,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>64.95</price>
+        <cost>29.79</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -14591,6 +14948,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -14605,6 +14965,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>99.95</price>
+        <cost>45.85</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15000,6 +15363,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15014,6 +15380,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>99.95</price>
+        <cost>45.85</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15278,6 +15647,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15292,6 +15664,9 @@ Vanwege wettelijke beperkingen kunnen niet alle details over dit voedingssupplem
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>59.95</price>
+        <cost>27.50</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15397,6 +15772,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>199.00</price>
+        <cost>91.28</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15411,6 +15789,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15425,6 +15806,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15815,6 +16199,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15829,6 +16216,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>99.95</price>
+        <cost>45.85</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -15901,6 +16291,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>16.51</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>21</btw>
         <compare_at_price/>
         <available>false</available>
         <voorraad>uitverkocht</voorraad>
@@ -16248,6 +16641,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -16262,6 +16658,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -16582,6 +16981,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -16596,6 +16998,9 @@ Gebruik dagelijks voor optimaal resultaat. Meng de inhoud van de afgestreken maa
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -16874,6 +17279,9 @@ Enzymen (100 mg), microkristallijne cellulose (vulstof), hydroxypropylmethylcell
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -16888,6 +17296,9 @@ Enzymen (100 mg), microkristallijne cellulose (vulstof), hydroxypropylmethylcell
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>64.95</price>
+        <cost>29.79</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17281,6 +17692,9 @@ Enzymen (100 mg), microkristallijne cellulose (vulstof), hydroxypropylmethylcell
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17295,6 +17709,9 @@ Enzymen (100 mg), microkristallijne cellulose (vulstof), hydroxypropylmethylcell
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>99.95</price>
+        <cost>45.85</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17421,6 +17838,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17435,6 +17855,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17537,6 +17960,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17551,6 +17977,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17684,6 +18113,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17698,6 +18130,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -17995,6 +18430,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18009,6 +18447,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>69.95</price>
+        <cost>32.09</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18279,6 +18720,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18293,6 +18737,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>54.95</price>
+        <cost>25.21</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18418,6 +18865,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>44.95</price>
+        <cost>20.62</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18432,6 +18882,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>24.95</price>
+        <cost>11.44</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18718,6 +19171,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>39.95</price>
+        <cost>18.33</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18732,6 +19188,9 @@ Geschikt voor vegetariërs en veganisten.&lt;/p&gt;
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>89.95</price>
+        <cost>41.26</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18961,6 +19420,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>34.95</price>
+        <cost>16.03</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -18975,6 +19437,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -19040,6 +19505,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>12.38</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>21</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -19054,6 +19522,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>19.95</price>
+        <cost>8.24</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>21</btw>
         <compare_at_price/>
         <available>false</available>
         <voorraad>nabestelling</voorraad>
@@ -19449,6 +19920,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>99.95</price>
+        <cost>45.85</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -19463,6 +19937,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>44.95</price>
+        <cost>20.62</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -19830,6 +20307,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>249.00</price>
+        <cost>114.22</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -19844,6 +20324,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>49.95</price>
+        <cost>22.91</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -19858,6 +20341,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>29.95</price>
+        <cost>13.74</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>
@@ -19872,6 +20358,9 @@ De bioflavonoïden in deze formule zijn wateroplosbare stoffen, die samen met vi
         <sku_bron>leverancier</sku_bron>
         <barcode/>
         <price>79.95</price>
+        <cost>36.67</cost>
+        <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+        <btw>9</btw>
         <compare_at_price/>
         <available>true</available>
         <voorraad>op-voorraad</voorraad>

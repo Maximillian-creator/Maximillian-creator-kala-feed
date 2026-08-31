@@ -5,6 +5,9 @@ Volledige productinfo om met Stock Sync NIEUWE producten aan te maken.
 Bron: kalahealth.nl (publieke WooCommerce Store API + de productpagina's).
 
   price       = consumentenprijs van kalahealth.nl (incl. BTW), 1-op-1
+  cost        = GESCHATTE inkoopprijs excl. BTW (50% marge volgens de
+                vertegenwoordiger, niet op factuur gecontroleerd; KALA_MARGE=0
+                laat het veld leeg)
   barcode     = leeg — Kala voert nergens een EAN, Stock Sync matcht op SKU
   handle      = kala-health-<titel>, nooit een kale naam (anders schuiven
                 Kala-varianten in bestaande producten van andere merken)
@@ -68,6 +71,9 @@ def build_xml(producten):
             add(v_el, "sku_bron", v["sku_bron"])
             add(v_el, "barcode", v["barcode"])
             add(v_el, "price", f"{v['prijs']:.2f}")
+            add(v_el, "cost", f"{v['kostprijs']:.2f}" if v["kostprijs"] else "")
+            add(v_el, "kostprijs_bron", v["kostprijs_bron"])
+            add(v_el, "btw", v["btw"])
             add(v_el, "compare_at_price", "")    # nooit verzonnen
             add(v_el, "available", "true" if v["available"] else "false")
             add(v_el, "voorraad", v["voorraad"])

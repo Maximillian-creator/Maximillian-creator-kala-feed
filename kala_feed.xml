@@ -9,6 +9,9 @@
     <handle>kala-health-liposomaal-ijzer</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>false</available>
     <voorraad>nabestelling</voorraad>
@@ -24,6 +27,9 @@
     <handle>kala-health-liposomaal-ijzer</handle>
     <option1>60 capsules</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>false</available>
     <voorraad>nabestelling</voorraad>
@@ -39,6 +45,9 @@
     <handle>kala-health-butyragen-butyraat-capsules</handle>
     <option1>60 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -54,6 +63,9 @@
     <handle>kala-health-butyragen-butyraat-capsules</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -69,6 +81,9 @@
     <handle>kala-health-liposomale-quercetine</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -84,6 +99,9 @@
     <handle>kala-health-liposomale-quercetine</handle>
     <option1>60 capsules</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -99,6 +117,9 @@
     <handle>kala-health-liposomaal-glutathion</handle>
     <option1>180 capsules</option1>
     <price>119.95</price>
+    <cost>55.02</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -114,6 +135,9 @@
     <handle>kala-health-liposomaal-glutathion</handle>
     <option1>60 capsules</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -129,6 +153,9 @@
     <handle>kala-health-liposomaal-pea</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -144,6 +171,9 @@
     <handle>kala-health-liposomaal-pea</handle>
     <option1>60 capsules</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -159,6 +189,9 @@
     <handle>kala-health-liposomaal-resveratrol</handle>
     <option1>180 capsules</option1>
     <price>129.95</price>
+    <cost>59.61</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -174,6 +207,9 @@
     <handle>kala-health-liposomaal-resveratrol</handle>
     <option1>60 capsules</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -189,6 +225,9 @@
     <handle>kala-health-liposomale-vitamine-b12-plus-folaat</handle>
     <option1>180 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -204,6 +243,9 @@
     <handle>kala-health-liposomale-vitamine-b12-plus-folaat</handle>
     <option1>60 capsules</option1>
     <price>19.95</price>
+    <cost>9.15</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -219,6 +261,9 @@
     <handle>kala-health-plantaardige-voedingsvezels</handle>
     <option1>Standaard</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -234,6 +279,9 @@
     <handle>kala-health-gewrichten-bundel</handle>
     <option1>180 caps + crème</option1>
     <price>184.95</price>
+    <cost>84.84</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -249,6 +297,9 @@
     <handle>kala-health-gewrichten-bundel</handle>
     <option1>60 caps + crème</option1>
     <price>84.95</price>
+    <cost>38.97</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -264,6 +315,9 @@
     <handle>kala-health-meer-energie-bundel</handle>
     <option1>500 gr. + 180 capsules</option1>
     <price>159.95</price>
+    <cost>73.37</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -279,6 +333,9 @@
     <handle>kala-health-meer-energie-bundel</handle>
     <option1>500 gr. + 60 capsules</option1>
     <price>94.95</price>
+    <cost>43.56</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -294,6 +351,9 @@
     <handle>kala-health-lions-mane-bio-poeder</handle>
     <option1>500 gram</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -309,6 +369,9 @@
     <handle>kala-health-lions-mane-bio-poeder</handle>
     <option1>250 gram</option1>
     <price>37.95</price>
+    <cost>17.41</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -324,6 +387,9 @@
     <handle>kala-health-shiitake-bio-poeder</handle>
     <option1>500 gram</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -339,6 +405,9 @@
     <handle>kala-health-shiitake-bio-poeder</handle>
     <option1>250 gram</option1>
     <price>37.95</price>
+    <cost>17.41</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -354,6 +423,9 @@
     <handle>kala-health-betere-weerstand-bundel</handle>
     <option1>500 gr. + 180 capsules</option1>
     <price>119.95</price>
+    <cost>55.02</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -369,6 +441,9 @@
     <handle>kala-health-betere-weerstand-bundel</handle>
     <option1>500 gr. + 60 capsules</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -384,6 +459,9 @@
     <handle>kala-health-reishi-bio-poeder</handle>
     <option1>500 gram</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -399,6 +477,9 @@
     <handle>kala-health-reishi-bio-poeder</handle>
     <option1>250 gram</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -414,6 +495,9 @@
     <handle>kala-health-maitake-bio-poeder</handle>
     <option1>500 gram</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -429,6 +513,9 @@
     <handle>kala-health-maitake-bio-poeder</handle>
     <option1>250 gram</option1>
     <price>37.95</price>
+    <cost>17.41</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -444,6 +531,9 @@
     <handle>kala-health-cordyceps-poeder-bio</handle>
     <option1>1.000 gram</option1>
     <price>149.95</price>
+    <cost>68.78</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -459,6 +549,9 @@
     <handle>kala-health-cordyceps-poeder-bio</handle>
     <option1>500 gram</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -474,6 +567,9 @@
     <handle>kala-health-chaga-bio-poeder</handle>
     <option1>350 gram</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -489,6 +585,9 @@
     <handle>kala-health-chaga-bio-poeder</handle>
     <option1>175 gram</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -504,6 +603,9 @@
     <handle>kala-health-akkermansia-muciniphila-capsules</handle>
     <option1>Standaard</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -519,6 +621,9 @@
     <handle>kala-health-optimsm-poeder-matcha</handle>
     <option1>500 gr.</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -534,6 +639,9 @@
     <handle>kala-health-optimsm-poeder-matcha</handle>
     <option1>250 gr.</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -549,6 +657,9 @@
     <handle>kala-health-optimsm-poeder-perzik</handle>
     <option1>500 gr.</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -564,6 +675,9 @@
     <handle>kala-health-optimsm-poeder-perzik</handle>
     <option1>250 gr.</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -579,6 +693,9 @@
     <handle>kala-health-optimsm-poeder-citroen</handle>
     <option1>500 gr.</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -594,6 +711,9 @@
     <handle>kala-health-optimsm-poeder-citroen</handle>
     <option1>250 gr.</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -609,6 +729,9 @@
     <handle>kala-health-betere-huid-bundel</handle>
     <option1>180 caps + 200 ml gel</option1>
     <price>154.95</price>
+    <cost>71.08</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -624,6 +747,9 @@
     <handle>kala-health-betere-huid-bundel</handle>
     <option1>60 caps + 200 ml gel</option1>
     <price>89.95</price>
+    <cost>41.26</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -639,6 +765,9 @@
     <handle>kala-health-beter-slapen-bundel</handle>
     <option1>500 gr. + 180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -654,6 +783,9 @@
     <handle>kala-health-beter-slapen-bundel</handle>
     <option1>500 gr. + 60 capsules</option1>
     <price>54.95</price>
+    <cost>25.21</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -669,6 +801,9 @@
     <handle>kala-health-dagelijkse-basis-bundel</handle>
     <option1>180 capsules</option1>
     <price>154.95</price>
+    <cost>71.08</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -684,6 +819,9 @@
     <handle>kala-health-dagelijkse-basis-bundel</handle>
     <option1>60 capsules</option1>
     <price>64.95</price>
+    <cost>29.79</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -699,6 +837,9 @@
     <handle>kala-health-magnesium-bisglycinaat-capsules</handle>
     <option1>180 capsules</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -714,6 +855,9 @@
     <handle>kala-health-magnesium-bisglycinaat-capsules</handle>
     <option1>60 capsules</option1>
     <price>18.95</price>
+    <cost>8.69</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -729,6 +873,9 @@
     <handle>kala-health-liposomale-magnesium-capsules</handle>
     <option1>180 capsules</option1>
     <price>89.95</price>
+    <cost>41.26</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -744,6 +891,9 @@
     <handle>kala-health-liposomale-magnesium-capsules</handle>
     <option1>60 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -759,6 +909,9 @@
     <handle>kala-health-ashwagandha-extract</handle>
     <option1>Standaard</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -774,6 +927,9 @@
     <handle>kala-health-magnesium-bisglycinaat-tabletten-100-mg</handle>
     <option1>180 tabletten</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -789,6 +945,9 @@
     <handle>kala-health-magnesium-bisglycinaat-tabletten-100-mg</handle>
     <option1>60 tabletten</option1>
     <price>14.95</price>
+    <cost>6.86</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -804,6 +963,9 @@
     <handle>kala-health-magnesium-complex-poeder-plus-vitamine-d3-plus-k2-50-mcg-75-mcg</handle>
     <option1>60 capsules + 500 gr.</option1>
     <price>54.95</price>
+    <cost>25.21</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -819,6 +981,9 @@
     <handle>kala-health-magnesium-complex-poeder-plus-vitamine-d3-plus-k2-50-mcg-75-mcg</handle>
     <option1>180 capsules + 500 gr.</option1>
     <price>64.95</price>
+    <cost>29.79</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -834,6 +999,9 @@
     <handle>kala-health-optimsm-poeder-plus-groenlipmosselolie-aspitol</handle>
     <option1>180 capsules + 500 gram</option1>
     <price>124.95</price>
+    <cost>57.32</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -849,6 +1017,9 @@
     <handle>kala-health-optimsm-poeder-plus-groenlipmosselolie-aspitol</handle>
     <option1>60 capsules + 250 gram</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -864,6 +1035,9 @@
     <handle>kala-health-huid-haar-en-nagel-plus-optimsm-gel</handle>
     <option1>180 capsules + 200 ml</option1>
     <price>69.95</price>
+    <cost>28.90</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>21</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -879,6 +1053,9 @@
     <handle>kala-health-huid-haar-en-nagel-plus-optimsm-gel</handle>
     <option1>60 capsules + 200 ml</option1>
     <price>49.95</price>
+    <cost>20.64</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>21</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -894,6 +1071,9 @@
     <handle>kala-health-rhodiola-extract</handle>
     <option1>180 capsules</option1>
     <price>89.95</price>
+    <cost>41.26</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -909,6 +1089,9 @@
     <handle>kala-health-rhodiola-extract</handle>
     <option1>60 capsules</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -924,6 +1107,9 @@
     <handle>kala-health-the-akkermansia-company-darmcomfort</handle>
     <option1>30 tabletten</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -939,6 +1125,9 @@
     <handle>kala-health-vitamine-d3-plus-k2-50mcg-75mcg</handle>
     <option1>60 capsules</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -954,6 +1143,9 @@
     <handle>kala-health-vitamine-d3-plus-k2-50mcg-75mcg</handle>
     <option1>180 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -969,6 +1161,9 @@
     <handle>kala-health-liposomale-curcumine</handle>
     <option1>60 capsules</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -984,6 +1179,9 @@
     <handle>kala-health-liposomale-curcumine</handle>
     <option1>180 capsules</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -999,6 +1197,9 @@
     <handle>kala-health-chaga-bio</handle>
     <option1>60 capsules</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1014,6 +1215,9 @@
     <handle>kala-health-chaga-bio</handle>
     <option1>180 capsules</option1>
     <price>74.95</price>
+    <cost>34.38</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1029,6 +1233,9 @@
     <handle>kala-health-probiotica</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1044,6 +1251,9 @@
     <handle>kala-health-probiotica</handle>
     <option1>60 capsules</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1059,6 +1269,9 @@
     <handle>kala-health-liposomaal-b-complex</handle>
     <option1>180 capsules</option1>
     <price>54.95</price>
+    <cost>25.21</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1074,6 +1287,9 @@
     <handle>kala-health-liposomaal-b-complex</handle>
     <option1>60 capsules</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1089,6 +1305,9 @@
     <handle>kala-health-annatto-vitamine-e</handle>
     <option1>30 capsules</option1>
     <price>46.95</price>
+    <cost>21.54</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1104,6 +1323,9 @@
     <handle>kala-health-annatto-vitamine-e</handle>
     <option1>60 capsules</option1>
     <price>84.95</price>
+    <cost>38.97</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1119,6 +1341,9 @@
     <handle>kala-health-annatto-vitamine-e</handle>
     <option1>180 capsules</option1>
     <price>194.95</price>
+    <cost>89.43</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1134,6 +1359,9 @@
     <handle>kala-health-magnesium-citraat-tabletten</handle>
     <option1>180 tabletten</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1149,6 +1377,9 @@
     <handle>kala-health-magnesium-citraat-tabletten</handle>
     <option1>60 tabletten</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1164,6 +1395,9 @@
     <handle>kala-health-creatine-monohydraat-poeder</handle>
     <option1>250g</option1>
     <price>16.95</price>
+    <cost>7.78</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1179,6 +1413,9 @@
     <handle>kala-health-creatine-monohydraat-poeder</handle>
     <option1>500g</option1>
     <price>27.95</price>
+    <cost>12.82</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1194,6 +1431,9 @@
     <handle>kala-health-gebufferde-vitamine-c</handle>
     <option1>60 capsules</option1>
     <price>19.95</price>
+    <cost>9.15</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1209,6 +1449,9 @@
     <handle>kala-health-gebufferde-vitamine-c</handle>
     <option1>365 capsules</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1224,6 +1467,9 @@
     <handle>kala-health-gebufferde-vitamine-c</handle>
     <option1>180 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1239,6 +1485,9 @@
     <handle>kala-health-magnesium-bisglycinaat-tabletten-200-mg</handle>
     <option1>180 tabletten</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1254,6 +1503,9 @@
     <handle>kala-health-magnesium-bisglycinaat-tabletten-200-mg</handle>
     <option1>60 tabletten</option1>
     <price>18.95</price>
+    <cost>8.69</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1269,6 +1521,9 @@
     <handle>kala-health-liposomale-ester-c</handle>
     <option1>180 capsules</option1>
     <price>99.95</price>
+    <cost>45.85</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1284,6 +1539,9 @@
     <handle>kala-health-liposomale-ester-c</handle>
     <option1>60 capsules</option1>
     <price>44.95</price>
+    <cost>20.62</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1299,6 +1557,9 @@
     <handle>kala-health-the-akkermansia-company-gewichtscontrole</handle>
     <option1>30 tabletten</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1314,6 +1575,9 @@
     <handle>kala-health-magnesium-complex-poeder</handle>
     <option1>500g</option1>
     <price>44.95</price>
+    <cost>20.62</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1329,6 +1593,9 @@
     <handle>kala-health-magnesium-complex-poeder</handle>
     <option1>1kg</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1344,6 +1611,9 @@
     <handle>kala-health-gebufferde-vitamine-c-poeder</handle>
     <option1>500g</option1>
     <price>19.95</price>
+    <cost>9.15</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1359,6 +1629,9 @@
     <handle>kala-health-gebufferde-vitamine-c-poeder</handle>
     <option1>1kg</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1374,6 +1647,9 @@
     <handle>kala-health-magnesium-citraat-poeder</handle>
     <option1>500g</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1389,6 +1665,9 @@
     <handle>kala-health-magnesium-citraat-poeder</handle>
     <option1>1kg</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1404,6 +1683,9 @@
     <handle>kala-health-magnesium-bisglycinaat-poeder</handle>
     <option1>500g</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1419,6 +1701,9 @@
     <handle>kala-health-magnesium-bisglycinaat-poeder</handle>
     <option1>1kg</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1434,6 +1719,9 @@
     <handle>kala-health-magnesium-complex</handle>
     <option1>180 capsules</option1>
     <price>54.95</price>
+    <cost>25.21</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1449,6 +1737,9 @@
     <handle>kala-health-magnesium-complex</handle>
     <option1>60 capsules</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1464,6 +1755,9 @@
     <handle>kala-health-magnesium-en-calcium</handle>
     <option1>180 capsules</option1>
     <price>54.95</price>
+    <cost>25.21</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1479,6 +1773,9 @@
     <handle>kala-health-magnesium-en-calcium</handle>
     <option1>60 capsules</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1494,6 +1791,9 @@
     <handle>kala-health-vitamine-e-t8-max-400ie-50mg</handle>
     <option1>180 capsules</option1>
     <price>99.95</price>
+    <cost>45.85</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1509,6 +1809,9 @@
     <handle>kala-health-vitamine-e-t8-max-400ie-50mg</handle>
     <option1>60 capsules</option1>
     <price>44.95</price>
+    <cost>20.62</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1524,6 +1827,9 @@
     <handle>kala-health-vitamine-e-strong-450ie-100mg</handle>
     <option1>180 capsules</option1>
     <price>119.95</price>
+    <cost>55.02</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1539,6 +1845,9 @@
     <handle>kala-health-vitamine-e-strong-450ie-100mg</handle>
     <option1>60 capsules</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1554,6 +1863,9 @@
     <handle>kala-health-vitamine-e-ultra-tocotrienol</handle>
     <option1>30 capsules</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1569,6 +1881,9 @@
     <handle>kala-health-vitamine-e-ultra-tocotrienol</handle>
     <option1>180 capsules</option1>
     <price>199.95</price>
+    <cost>91.72</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1584,6 +1899,9 @@
     <handle>kala-health-vitamine-e-ultra-tocotrienol</handle>
     <option1>60 capsules</option1>
     <price>89.95</price>
+    <cost>41.26</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1599,6 +1917,9 @@
     <handle>kala-health-vitamine-e-ultra-tocoferol</handle>
     <option1>180 capsules</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1614,6 +1935,9 @@
     <handle>kala-health-vitamine-e-ultra-tocoferol</handle>
     <option1>60 capsules</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1629,6 +1953,9 @@
     <handle>kala-health-vitamine-c-poeder-l-ascorbinezuur</handle>
     <option1>5kg</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1644,6 +1971,9 @@
     <handle>kala-health-vitamine-c-poeder-l-ascorbinezuur</handle>
     <option1>1kg</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1659,6 +1989,9 @@
     <handle>kala-health-vitamine-c-poeder-l-ascorbinezuur</handle>
     <option1>500g</option1>
     <price>15.95</price>
+    <cost>7.32</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1674,6 +2007,9 @@
     <handle>kala-health-natuurlijke-multivitamine</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1689,6 +2025,9 @@
     <handle>kala-health-natuurlijke-multivitamine</handle>
     <option1>60 capsules</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1704,6 +2043,9 @@
     <handle>kala-health-optimsm-tabletten</handle>
     <option1>180 tabletten</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1719,6 +2061,9 @@
     <handle>kala-health-optimsm-tabletten</handle>
     <option1>60 tabletten</option1>
     <price>14.95</price>
+    <cost>6.86</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1734,6 +2079,9 @@
     <handle>kala-health-plantaardige-voedingsvezel-capsules</handle>
     <option1>60 capsules</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1749,6 +2097,9 @@
     <handle>kala-health-plantaardige-voedingsvezel-capsules</handle>
     <option1>180 capsules</option1>
     <price>64.95</price>
+    <cost>29.79</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1764,6 +2115,9 @@
     <handle>kala-health-huid-haar-nagel</handle>
     <option1>60 capsules</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1779,6 +2133,9 @@
     <handle>kala-health-huid-haar-nagel</handle>
     <option1>180 capsules</option1>
     <price>64.95</price>
+    <cost>29.79</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1794,6 +2151,9 @@
     <handle>kala-health-vegan-omega-3</handle>
     <option1>60 capsules</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1809,6 +2169,9 @@
     <handle>kala-health-vegan-omega-3</handle>
     <option1>180 capsules</option1>
     <price>99.95</price>
+    <cost>45.85</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1824,6 +2187,9 @@
     <handle>kala-health-groenlipmosselolie-aspitol</handle>
     <option1>60 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1839,6 +2205,9 @@
     <handle>kala-health-groenlipmosselolie-aspitol</handle>
     <option1>180 capsules</option1>
     <price>99.95</price>
+    <cost>45.85</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1854,6 +2223,9 @@
     <handle>kala-health-krillolie</handle>
     <option1>60 softgels</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1869,6 +2241,9 @@
     <handle>kala-health-krillolie</handle>
     <option1>180 softgels</option1>
     <price>59.95</price>
+    <cost>27.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1884,6 +2259,9 @@
     <handle>kala-health-glucosamine-hcl-naturglux</handle>
     <option1>5kg</option1>
     <price>199.00</price>
+    <cost>91.28</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1899,6 +2277,9 @@
     <handle>kala-health-glucosamine-hcl-naturglux</handle>
     <option1>500g</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1914,6 +2295,9 @@
     <handle>kala-health-glucosamine-hcl-naturglux</handle>
     <option1>1kg</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1929,6 +2313,9 @@
     <handle>kala-health-msmgc-vegan</handle>
     <option1>60 capsules</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1944,6 +2331,9 @@
     <handle>kala-health-msmgc-vegan</handle>
     <option1>180 capsules</option1>
     <price>99.95</price>
+    <cost>45.85</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1959,6 +2349,9 @@
     <handle>kala-health-cm-creme-msm</handle>
     <option1>Standaard</option1>
     <price>39.95</price>
+    <cost>16.51</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>21</btw>
     <compare_at_price/>
     <available>false</available>
     <voorraad>uitverkocht</voorraad>
@@ -1974,6 +2367,9 @@
     <handle>kala-health-msmgc-tabletten</handle>
     <option1>60 tabletten</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -1989,6 +2385,9 @@
     <handle>kala-health-msmgc-tabletten</handle>
     <option1>180 tabletten</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2004,6 +2403,9 @@
     <handle>kala-health-optimsm-capsules</handle>
     <option1>60 capsules</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2019,6 +2421,9 @@
     <handle>kala-health-optimsm-capsules</handle>
     <option1>180 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2034,6 +2439,9 @@
     <handle>kala-health-natuurlijke-enzymen</handle>
     <option1>60 capsules</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2049,6 +2457,9 @@
     <handle>kala-health-natuurlijke-enzymen</handle>
     <option1>180 capsules</option1>
     <price>64.95</price>
+    <cost>29.79</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2064,6 +2475,9 @@
     <handle>kala-health-msmgc-plus-capsules</handle>
     <option1>60 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2079,6 +2493,9 @@
     <handle>kala-health-msmgc-plus-capsules</handle>
     <option1>180 capsules</option1>
     <price>99.95</price>
+    <cost>45.85</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2094,6 +2511,9 @@
     <handle>kala-health-astaxanthine</handle>
     <option1>60 capsules</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2109,6 +2529,9 @@
     <handle>kala-health-astaxanthine</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2124,6 +2547,9 @@
     <handle>kala-health-co-enzym-q10</handle>
     <option1>60 capsules</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2139,6 +2565,9 @@
     <handle>kala-health-co-enzym-q10</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2154,6 +2583,9 @@
     <handle>kala-health-vegan-cordyceps-bio</handle>
     <option1>60 capsules</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2169,6 +2601,9 @@
     <handle>kala-health-vegan-cordyceps-bio</handle>
     <option1>180 capsules</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2184,6 +2619,9 @@
     <handle>kala-health-vegan-mushroommix-bio</handle>
     <option1>60 capsules</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2199,6 +2637,9 @@
     <handle>kala-health-vegan-mushroommix-bio</handle>
     <option1>180 capsules</option1>
     <price>69.95</price>
+    <cost>32.09</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2214,6 +2655,9 @@
     <handle>kala-health-mineralen-complex</handle>
     <option1>60 capsules</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2229,6 +2673,9 @@
     <handle>kala-health-mineralen-complex</handle>
     <option1>180 capsules</option1>
     <price>54.95</price>
+    <cost>25.21</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2244,6 +2691,9 @@
     <handle>kala-health-vitamine-d3-3000-iu</handle>
     <option1>365 capsules</option1>
     <price>44.95</price>
+    <cost>20.62</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2259,6 +2709,9 @@
     <handle>kala-health-vitamine-d3-3000-iu</handle>
     <option1>180 capsules</option1>
     <price>24.95</price>
+    <cost>11.44</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2274,6 +2727,9 @@
     <handle>kala-health-vitamine-e-t8-vegan</handle>
     <option1>60 capsules</option1>
     <price>39.95</price>
+    <cost>18.33</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2289,6 +2745,9 @@
     <handle>kala-health-vitamine-e-t8-vegan</handle>
     <option1>180 capsules</option1>
     <price>89.95</price>
+    <cost>41.26</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2304,6 +2763,9 @@
     <handle>kala-health-vitamine-c-ester-c</handle>
     <option1>60 tabletten</option1>
     <price>34.95</price>
+    <cost>16.03</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2319,6 +2781,9 @@
     <handle>kala-health-vitamine-c-ester-c</handle>
     <option1>180 tabletten</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2334,6 +2799,9 @@
     <handle>kala-health-optimsm-gel</handle>
     <option1>200 ml</option1>
     <price>29.95</price>
+    <cost>12.38</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>21</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2349,6 +2817,9 @@
     <handle>kala-health-optimsm-gel</handle>
     <option1>100 ml</option1>
     <price>19.95</price>
+    <cost>8.24</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>21</btw>
     <compare_at_price/>
     <available>false</available>
     <voorraad>nabestelling</voorraad>
@@ -2364,6 +2835,9 @@
     <handle>kala-health-vitamine-e-t8-compleet</handle>
     <option1>180 capsules</option1>
     <price>99.95</price>
+    <cost>45.85</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2379,6 +2853,9 @@
     <handle>kala-health-vitamine-e-t8-compleet</handle>
     <option1>60 capsules</option1>
     <price>44.95</price>
+    <cost>20.62</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2394,6 +2871,9 @@
     <handle>kala-health-optimsm-poeder</handle>
     <option1>5kg</option1>
     <price>249.00</price>
+    <cost>114.22</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2409,6 +2889,9 @@
     <handle>kala-health-optimsm-poeder</handle>
     <option1>500g</option1>
     <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2424,6 +2907,9 @@
     <handle>kala-health-optimsm-poeder</handle>
     <option1>250g</option1>
     <price>29.95</price>
+    <cost>13.74</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
@@ -2439,6 +2925,9 @@
     <handle>kala-health-optimsm-poeder</handle>
     <option1>1kg</option1>
     <price>79.95</price>
+    <cost>36.67</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>

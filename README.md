@@ -97,29 +97,57 @@ Max — niet deze zeef.
 
 ## Prijs
 
-`price` = de consumentenprijs van kalahealth.nl, **incl. BTW, 1-op-1** — hetzelfde
-model als Goldea en Energetica Natura. Er wordt geen kostprijs of marge gerekend
-(die staat nergens publiek) en nooit een `compare_at_price` verzonnen.
-
-| env | standaard | betekenis |
-|---|---|---|
-| `KALA_PRIJS_BASIS` | `advies` | `advies` = reguliere prijs, `actueel` = met lopende actie |
-| `KALA_PRIJS_FACTOR` | `1.0` | vermenigvuldigt de prijs |
+`price` = de consumentenprijs van kalahealth.nl, **incl. BTW, 1-op-1** (besluit
+Max, 31-08-2026) — hetzelfde model als Goldea en Energetica Natura. Er wordt
+nooit een `compare_at_price` verzonnen.
 
 Op 31-08-2026 stonden 8 varianten in de actie (Magnesium Bisglycinaat 100 mg,
 Liposomaal B-complex, Creatine, Gebufferde Vitamine C Poeder). Met `advies` komt
 de normale prijs mee, niet de tijdelijke.
 
-**Let op:** 3 producten zijn cosmetica, geen supplement — CM Crème (MSM),
-OptiMSM® Gel en de bundel Huid, Haar & Nagel + OptiMSM® Gel. Daar geldt 21% BTW
-in plaats van 9%. Ze staan met de tag `cosmetica` in de feed.
+### De kostprijs is een aanname, geen gemeten getal
+
+Kala publiceert nergens inkoopprijzen en heeft geen inkoopportaal. Max,
+31-08-2026: *"ik heb geen online inkoopprijzen, maar naar zeggen van de
+vertegenwoordiger heb ik 50% marge."* Dat is hoorzeggen, geen factuur. Zo staat
+het ook in de feed:
+
+```
+cost = (consumentenprijs / BTW-factor) x (1 - KALA_MARGE)
+```
+
+De marge wordt genomen over de prijs **zonder** BTW, zoals een leverancier hem
+noemt. Voorbeeld: Liposomaal IJzer 60 caps € 29,95 incl. 9% → € 27,48 excl. →
+kostprijs **€ 13,74**. Over de hele catalogus: € 9.919,95 verkoop tegenover
+€ 4.540,81 geschatte inkoop.
+
+Elke regel draagt het voorbehoud mee in het veld `kostprijs_bron`, en
+`test_feed.py` pint de formule vast — zodat `cost` nooit een getal wordt waarvan
+niemand meer weet hoe het is ontstaan.
+
+> **Controleer dit bij de eerste factuur van Kala.** Wijkt het af, dan is het
+> één getal in de env en een nieuwe run: `KALA_MARGE=0.45`. Wil je helemaal geen
+> kostprijs in Shopify, dan `KALA_MARGE=0` — dan blijft het veld leeg.
+
+| env | standaard | betekenis |
+|---|---|---|
+| `KALA_PRIJS_BASIS` | `advies` | `advies` = reguliere prijs, `actueel` = met lopende actie |
+| `KALA_PRIJS_FACTOR` | `1.0` | vermenigvuldigt de verkoopprijs |
+| `KALA_MARGE` | `0.50` | inkoopmarge voor de geschatte kostprijs; `0` = geen kostprijs |
+
+**Let op de BTW:** 3 producten zijn cosmetica, geen supplement — CM Crème (MSM),
+OptiMSM® Gel en de bundel Huid, Haar & Nagel + OptiMSM® Gel (5 varianten). Daar
+geldt 21% in plaats van 9%. Ze staan met de tag `cosmetica` in de feed, en het
+veld `btw` zegt per regel 9 of 21. Dat veld wordt alleen gebruikt om de
+kostprijs terug te rekenen; aan de verkoopprijs wordt niets op- of afgeteld.
 
 ## Stock Sync instellen
 
 **Update-koppeling** (bestaande producten):
 - Product-identificeerder: **SKU**. Barcode NIET mappen.
-- Map: `price`, `available`. **`description` staat niet in deze feed** — zo kan
-  een prijs-update nooit een eigen productbeschrijving overschrijven.
+- Map: `price`, `available`, en desgewenst `cost` → Kostprijs per artikel (lees
+  eerst het voorbehoud hierboven). **`description` staat niet in deze feed** — zo
+  kan een prijs-update nooit een eigen productbeschrijving overschrijven.
 - Bij "niet in de feed": **voorraad op 0 zetten, nooit archiveren of op concept.**
   Stock Sync heeft in 2026 drie keer stilletjes een hele catalogus gearchiveerd.
 

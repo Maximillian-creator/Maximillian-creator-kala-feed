@@ -56,6 +56,36 @@ def eis(voorwaarde, boodschap):
         fouten.append(boodschap)
 
 
+def toets_kostprijs(el, sku, prijs):
+    """De kostprijs is een aanname, en moet dus precies de aanname zijn.
+
+    Zonder deze test is `cost` een getal waarvan niemand meer weet hoe het is
+    ontstaan. Hij pint de formule vast: consumentenprijs zonder BTW, maal
+    (1 - marge). Klopt de uitkomst niet, dan is er iets veranderd aan het
+    prijsbeleid zonder dat de betekenis van het veld is bijgewerkt.
+    """
+    import kala_common as kc
+    kosten = (el.find("cost").text or "").strip() if el.find("cost") is not None else ""
+    btw = (el.find("btw").text or "").strip() if el.find("btw") is not None else ""
+    bron = ((el.find("kostprijs_bron").text or "").strip()
+            if el.find("kostprijs_bron") is not None else "")
+    eis(btw in ("9", "21"), f"{sku}: btw is '{btw}' (moet 9 of 21 zijn)")
+    if not kc.MARGE:
+        eis(kosten == "", f"{sku}: cost gevuld terwijl KALA_MARGE 0 is")
+        return
+    eis(bool(kosten), f"{sku}: geen kostprijs")
+    if not kosten or btw not in ("9", "21"):
+        return
+    verwacht = round(prijs / (1 + int(btw) / 100) * (1 - kc.MARGE), 2)
+    eis(abs(float(kosten) - verwacht) < 0.005,
+        f"{sku}: cost {kosten} is niet {verwacht} "
+        f"(prijs {prijs} zonder {btw}% BTW, marge {kc.MARGE})")
+    eis(0 < float(kosten) < prijs,
+        f"{sku}: cost {kosten} ligt niet tussen 0 en de verkoopprijs {prijs}")
+    eis("aanname" in bron.lower(),
+        f"{sku}: kostprijs_bron zegt niet dat het een aanname is ('{bron}')")
+
+
 def lees(pad):
     if not pad.exists():
         fouten.append(f"{pad.name} bestaat niet — draai eerst de scraper")
@@ -103,6 +133,7 @@ def toets_update():
             f"{sku}: handle '{tekst(r, 'handle')}' mist het voorvoegsel "
             f"kala-health- (dan kan Stock Sync hem in andermans product schuiven)")
         eis(tekst(r, "option1"), f"{sku}: geen option1 — varianten botsen dan")
+        toets_kostprijs(r, sku, float(prijs or 0))
         eis(r.find("description") is None,
             f"{sku}: de update-feed hoort geen beschrijving te bevatten")
         skus.append(sku)
@@ -157,6 +188,7 @@ def toets_add(update_skus):
             eis(prijs and float(prijs) > 0, f"{sku}: prijs is '{prijs}' (moet > 0)")
             eis(tekst(v, "barcode") == "",
                 f"{sku}: barcode gevuld — Kala voert geen EAN, dus dat kan niet")
+            toets_kostprijs(v, sku, float(prijs or 0))
             skus.append(sku)
             opties.append(tekst(v, "option1"))
         eis(len(opties) == len(set(opties)),

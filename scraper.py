@@ -5,6 +5,9 @@ Lichte feed om BESTAANDE producten bij te werken: verkoopprijs + beschikbaarheid
 Matcht in Stock Sync op SKU (Kala voert nergens een EAN).
 
   price     = consumentenprijs van kalahealth.nl (incl. BTW), 1-op-1
+  cost      = GESCHATTE inkoopprijs excl. BTW: prijs zonder BTW x (1 - marge).
+              De marge is hoorzeggen van de vertegenwoordiger, geen factuur --
+              elke regel draagt dat voorbehoud mee in `kostprijs_bron`.
   available = op voorraad bij Kala; "nabestelling" telt als NIET beschikbaar
   GEEN beschrijving — die staat alleen in de add-feed, zodat een update nooit
   de eigen productteksten van Good For You overschrijft.
@@ -44,6 +47,9 @@ def build_xml(producten):
             add(item, "handle", p["handle"])
             add(item, "option1", v["optie1"])
             add(item, "price", f"{v['prijs']:.2f}")
+            add(item, "cost", f"{v['kostprijs']:.2f}" if v["kostprijs"] else "")
+            add(item, "kostprijs_bron", v["kostprijs_bron"])
+            add(item, "btw", v["btw"])
             add(item, "compare_at_price", "")     # nooit verzonnen
             add(item, "available", "true" if v["available"] else "false")
             add(item, "voorraad", v["voorraad"])

@@ -76,6 +76,13 @@ if not VERIFY_SSL:
 PRIJS_BASIS = os.environ.get("KALA_PRIJS_BASIS", "advies").lower()
 PRIJS_FACTOR = float(os.environ.get("KALA_PRIJS_FACTOR", "1.0"))
 
+# Inkoopmarge volgens de vertegenwoordiger van Kala (Max, 31-08-2026). Hoorzeggen,
+# geen factuur -- daarom staat het als aanname in de feed en niet als feit.
+# KALA_MARGE=0 laat de kostprijs helemaal leeg.
+MARGE = float(os.environ.get("KALA_MARGE", "0.50"))
+KOSTPRIJS_BRON = ("aanname: {}% marge volgens de vertegenwoordiger, "
+                  "niet op factuur gecontroleerd").format(round(MARGE * 100))
+
 # Kala verkoopt ook twee producten van een ander merk onder eigen categorie.
 # Alleen die twee krijgen een andere vendor; ButyraGen/OptiMSM/Ester-C/Aspitol/
 # NaturGlux zijn grondstof-merken, geen producent van het product.
@@ -590,6 +597,36 @@ def bepaal_prijs(bron):
     return round(int(centen) / 100 * PRIJS_FACTOR, 2)
 
 
+def btw_tarief(titel):
+    """9% voor een voedingssupplement, 21% voor cosmetica.
+
+    Alleen gebruikt om de consumentenprijs terug te rekenen naar een prijs
+    zonder BTW; er wordt geen BTW bij de verkoopprijs opgeteld of afgehaald.
+    """
+    return 21 if is_cosmetica(titel) else 9
+
+
+def bepaal_kostprijs(prijs, titel):
+    """Geschatte inkoopprijs excl. BTW — een AANNAME, geen gemeten getal.
+
+    Kala publiceert nergens inkoopprijzen. Max, 31-08-2026: *"ik heb geen online
+    inkoopprijzen, maar naar zeggen van de vertegenwoordiger heb ik 50% marge."*
+    Dat is hoorzeggen, geen factuur. Zo is het hier ook gerekend:
+
+        kostprijs = (consumentenprijs / BTW-factor) x (1 - KALA_MARGE)
+
+    De marge wordt dus over de prijs **zonder** BTW genomen, zoals een
+    leverancier hem noemt. Het veld `kostprijs_bron` in de feed zegt bij elke
+    regel dat dit een aanname is, en `KALA_MARGE=0` laat de kostprijs leeg.
+
+    Controleer dit bij de eerste factuur van Kala. Wijkt het af, dan is het een
+    getal in de env en een nieuwe run — niet een aanpassing in de code.
+    """
+    if not MARGE:
+        return ""
+    return round(prijs / (1 + btw_tarief(titel) / 100) * (1 - MARGE), 2)
+
+
 def voorraad_indicatie(bron):
     """op-voorraad / nabestelling / uitverkocht — geen verzonnen aantal.
 
@@ -644,6 +681,9 @@ def normaliseer_variant(bron, ouder):
         "sku_bron": "",
         "barcode": "",                        # Kala voert nergens een EAN
         "prijs": bepaal_prijs(bron),
+        "kostprijs": bepaal_kostprijs(bepaal_prijs(bron), ouder["name"]),
+        "kostprijs_bron": KOSTPRIJS_BRON if MARGE else "",
+        "btw": btw_tarief(ouder["name"]),
         "prijs_regulier": round(int(bron["prices"]["regular_price"]) / 100, 2),
         "prijs_actueel": round(int(bron["prices"]["price"]) / 100, 2),
         "in_actie": bool(bron.get("on_sale")),
