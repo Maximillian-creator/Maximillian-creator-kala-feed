@@ -787,13 +787,13 @@ def controleer_omvang(aantal, vorig_bestand):
     if os.environ.get("FORCE_FEED") == "1":
         return
     if aantal == 0:
-        raise SystemExit("STOP: 0 producten gevonden — feed niet weggeschreven.")
+        raise SystemExit("STOP: 0 feed-regels gevonden — feed niet weggeschreven.")
     if not os.path.exists(vorig_bestand):
         return
     vorig = open(vorig_bestand, encoding="utf-8").read().count("<product>")
     if vorig and aantal < vorig / 2:
         raise SystemExit(
-            f"STOP: {aantal} producten tegenover {vorig} in de vorige feed — "
+            f"STOP: {aantal} feed-regels tegenover {vorig} in de vorige feed — "
             f"minder dan de helft. Feed niet weggeschreven (FORCE_FEED=1 "
             f"overrulet dit).")
 
