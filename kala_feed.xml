@@ -1401,7 +1401,7 @@
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
-    <in_actie>true</in_actie>
+    <in_actie>false</in_actie>
     <url>https://www.kalahealth.nl/product/creatine-monohydraat-poeder/?attribute_pa_formaat=250g</url>
   </product>
   <product>
@@ -1419,7 +1419,7 @@
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
-    <in_actie>true</in_actie>
+    <in_actie>false</in_actie>
     <url>https://www.kalahealth.nl/product/creatine-monohydraat-poeder/?attribute_pa_formaat=500g</url>
   </product>
   <product>
