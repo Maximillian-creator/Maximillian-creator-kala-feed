@@ -781,8 +781,15 @@ def controleer_omvang(aantal, vorig_bestand):
     Stock Sync zet producten die niet in de feed staan op *gearchiveerd*, stil en
     zonder melding — dat heeft in mei, juni en juli 2026 drie keer een hele
     catalogus tot 44 dagen onvindbaar gemaakt. Een scraper die na een wijziging
-    aan kalahealth.nl 0 of 40 producten vindt mag die uitkomst dus niet
+    aan kalahealth.nl 0 of 40 regels vindt mag die uitkomst dus niet
     wegschrijven. Overrulen kan bewust met FORCE_FEED=1.
+
+    Er wordt geteld op `<sku>`, niet op `<product>`. `aantal` is het aantal
+    feed-regels (varianten), en dat is in de update-feed toevallig gelijk aan het
+    aantal `<product>`-knopen maar in de add-feed niet: die heeft 81 producten
+    met samen 163 varianten. Op `<product>` tellen zou de halveringsgrens van de
+    add-feed op 41 zetten in plaats van op 82 — een grens die iets anders
+    betekent dan hij zegt.
     """
     if os.environ.get("FORCE_FEED") == "1":
         return
@@ -790,7 +797,7 @@ def controleer_omvang(aantal, vorig_bestand):
         raise SystemExit("STOP: 0 feed-regels gevonden — feed niet weggeschreven.")
     if not os.path.exists(vorig_bestand):
         return
-    vorig = open(vorig_bestand, encoding="utf-8").read().count("<product>")
+    vorig = open(vorig_bestand, encoding="utf-8").read().count("<sku>")
     if vorig and aantal < vorig / 2:
         raise SystemExit(
             f"STOP: {aantal} feed-regels tegenover {vorig} in de vorige feed — "
