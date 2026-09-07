@@ -2157,7 +2157,7 @@
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
-    <in_actie>false</in_actie>
+    <in_actie>true</in_actie>
     <url>https://www.kalahealth.nl/product/vegan-omega-3/?attribute_aantal=60+capsules</url>
   </product>
   <product>
@@ -2175,7 +2175,7 @@
     <compare_at_price/>
     <available>true</available>
     <voorraad>op-voorraad</voorraad>
-    <in_actie>false</in_actie>
+    <in_actie>true</in_actie>
     <url>https://www.kalahealth.nl/product/vegan-omega-3/?attribute_aantal=180+capsules</url>
   </product>
   <product>
