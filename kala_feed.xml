@@ -2353,8 +2353,8 @@
     <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
     <btw>21</btw>
     <compare_at_price/>
-    <available>false</available>
-    <voorraad>uitverkocht</voorraad>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
     <in_actie>false</in_actie>
     <url>https://www.kalahealth.nl/product/cm-creme-msm/</url>
   </product>
