@@ -1,21 +1,21 @@
 handle,titel,tabbladen,tekens_tekst,afbeeldingen
 kala-health-liposomaal-ijzer,Liposomaal IJzer,add_comments_tab|gebruikdosering_tab|samenstelling_tab,9004,2
 kala-health-butyragen-butyraat-capsules,ButyraGen® Butyraat Capsules,add_comments_tab|gebruikdosering_tab|samenstelling_tab,11098,3
-kala-health-liposomale-quercetine,Liposomale Quercetine,add_comments_tab|gebruikdosering_tab|samenstelling_tab,7402,2
-kala-health-liposomaal-glutathion,Liposomaal Glutathion,add_comments_tab|gebruikdosering_tab|samenstelling_tab,10995,4
-kala-health-liposomaal-pea,Liposomaal PEA,add_comments_tab|gebruikdosering_tab|samenstelling_tab,6559,2
-kala-health-liposomaal-resveratrol,Liposomaal Resveratrol,add_comments_tab|gebruikdosering_tab|samenstelling_tab,7606,2
-kala-health-liposomale-vitamine-b12-plus-folaat,Liposomale vitamine B12 + Folaat,add_comments_tab|gebruikdosering_tab|samenstelling_tab,11400,3
+kala-health-liposomale-quercetine,Liposomale Quercetine,add_comments_tab|gebruikdosering_tab|samenstelling_tab,7402,3
+kala-health-liposomaal-glutathion,Liposomaal Glutathion,add_comments_tab|gebruikdosering_tab|samenstelling_tab,10995,5
+kala-health-liposomaal-pea,Liposomaal PEA,add_comments_tab|gebruikdosering_tab|samenstelling_tab,6559,3
+kala-health-liposomaal-resveratrol,Liposomaal Resveratrol,add_comments_tab|gebruikdosering_tab|samenstelling_tab,7606,3
+kala-health-liposomale-vitamine-b12-plus-folaat,Liposomale vitamine B12 + Folaat,add_comments_tab|gebruikdosering_tab|samenstelling_tab,11400,4
 kala-health-plantaardige-voedingsvezels,Plantaardige Voedingsvezels,add_comments_tab|gebruikdosering_tab|samenstelling_tab,7188,2
 kala-health-gewrichten-bundel,Gewrichten Bundel,add_comments_tab|samenstelling_tab,19721,1
 kala-health-meer-energie-bundel,Meer Energie Bundel,add_comments_tab|samenstelling_tab,16166,2
-kala-health-lions-mane-bio-poeder,Lion’s Mane BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,13900,2
-kala-health-shiitake-bio-poeder,Shiitake BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,13765,2
+kala-health-lions-mane-bio-poeder,Lion’s Mane BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,13900,3
+kala-health-shiitake-bio-poeder,Shiitake BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,13765,3
 kala-health-betere-weerstand-bundel,Betere Weerstand Bundel,add_comments_tab|gebruikdosering_tab|samenstelling_tab,14769,1
-kala-health-reishi-bio-poeder,Reishi BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,14290,2
-kala-health-maitake-bio-poeder,Maitake BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,13246,2
-kala-health-cordyceps-poeder-bio,Cordyceps Poeder BIO,add_comments_tab|gebruikdosering_tab|samenstelling_tab,11274,2
-kala-health-chaga-bio-poeder,Chaga BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,12220,2
+kala-health-reishi-bio-poeder,Reishi BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,14290,3
+kala-health-maitake-bio-poeder,Maitake BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,13246,3
+kala-health-cordyceps-poeder-bio,Cordyceps Poeder BIO,add_comments_tab|gebruikdosering_tab|samenstelling_tab,11274,3
+kala-health-chaga-bio-poeder,Chaga BIO Poeder,add_comments_tab|gebruikdosering_tab|samenstelling_tab,12220,3
 kala-health-akkermansia-muciniphila-capsules,Akkermansia Muciniphila Capsules,achtergrond_informatie_tab|add_comments_tab|gebruikdosering_tab|samenstelling_tab,19930,4
 kala-health-optimsm-poeder-matcha,OptiMSM® Poeder Matcha,add_comments_tab|gebruikdosering_tab|samenstelling_tab,9709,3
 kala-health-optimsm-poeder-perzik,OptiMSM® Poeder Perzik,add_comments_tab|gebruikdosering_tab|samenstelling_tab,9716,3
@@ -60,11 +60,11 @@ kala-health-optimsm-tabletten,OptiMSM® tabletten,achtergrond_informatie_tab|add
 kala-health-plantaardige-voedingsvezel-capsules,Plantaardige voedingsvezel capsules,gebruikdosering_tab|samenstelling_tab,2360,4
 kala-health-huid-haar-nagel,Huid Haar Nagel,gebruikdosering_tab|samenstelling_tab,3184,2
 kala-health-vegan-omega-3,Vegan Omega 3,add_comments_tab|gebruikdosering_tab|samenstelling_tab,8670,6
-kala-health-groenlipmosselolie-aspitol,Groenlipmosselolie (Aspitol®),add_comments_tab|gebruikdosering_tab|samenstelling_tab,21351,6
+kala-health-groenlipmosselolie-aspitol,Groenlipmosselolie (Aspitol®),add_comments_tab|gebruikdosering_tab|samenstelling_tab,14409,6
 kala-health-krillolie,Krillolie,add_comments_tab|gebruikdosering_tab|samenstelling_tab,15767,7
 kala-health-glucosamine-hcl-naturglux,Glucosamine HCl (NaturGlux®),gebruikdosering_tab|samenstelling_tab,7398,6
 kala-health-msmgc-vegan,MSMGC Vegan,add_comments_tab|gebruikdosering_tab|samenstelling_tab,27334,4
-kala-health-cm-creme-msm,CM Crème (MSM),gebruikdosering_tab|samenstelling_tab,7100,1
+kala-health-cm-creme-msm,CM Crème (MSM),add_comments_tab|gebruikdosering_tab|samenstelling_tab,6235,1
 kala-health-msmgc-tabletten,MSMGC Tabletten,add_comments_tab|gebruikdosering_tab|samenstelling_tab,23969,6
 kala-health-optimsm-capsules,OptiMSM® Capsules,add_comments_tab|gebruikdosering_tab|samenstelling_tab,28183,6
 kala-health-natuurlijke-enzymen,Natuurlijke Enzymen,add_comments_tab|gebruikdosering_tab|samenstelling_tab,18941,5
@@ -72,11 +72,11 @@ kala-health-msmgc-plus-capsules,MSMGC Plus Capsules,add_comments_tab|gebruikdose
 kala-health-astaxanthine,Astaxanthine,gebruikdosering_tab|samenstelling_tab,6568,5
 kala-health-co-enzym-q10,Co-enzym Q10,gebruikdosering_tab|samenstelling_tab,4277,5
 kala-health-vegan-cordyceps-bio,Vegan Cordyceps BIO,gebruikdosering_tab|samenstelling_tab,7729,5
-kala-health-vegan-mushroommix-bio,Vegan Mushroommix BIO,add_comments_tab|gebruikdosering_tab|samenstelling_tab,12990,6
+kala-health-vegan-mushroommix-bio,Vegan Mushroommix BIO,add_comments_tab|gebruikdosering_tab|samenstelling_tab,12990,7
 kala-health-mineralen-complex,Mineralen Complex,add_comments_tab|gebruikdosering_tab|samenstelling_tab,17631,7
 kala-health-vitamine-d3-3000-iu,Vitamine D3 3000 IU,add_comments_tab|gebruikdosering_tab|samenstelling_tab,5552,5
 kala-health-vitamine-e-t8-vegan,Vitamine E T8 Vegan,add_comments_tab|gebruikdosering_tab|samenstelling_tab,17153,9
 kala-health-vitamine-c-ester-c,Vitamine C (Ester-C®),gebruikdosering_tab|samenstelling_tab,9360,6
-kala-health-optimsm-gel,OptiMSM® Gel,add_comments_tab|samenstelling_tab,3201,4
+kala-health-optimsm-gel,OptiMSM® Gel,add_comments_tab|gebruikdosering_tab|samenstelling_tab,5003,4
 kala-health-vitamine-e-t8-compleet,Vitamine E T8 Compleet,add_comments_tab|gebruikdosering_tab|samenstelling_tab,20664,10
 kala-health-optimsm-poeder,OptiMSM® Poeder,achtergrond_informatie_tab|add_comments_tab|gebruikdosering_tab|samenstelling_tab,22444,8
