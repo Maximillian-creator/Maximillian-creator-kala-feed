@@ -23,6 +23,7 @@ from pathlib import Path
 HIER = Path(__file__).parent
 UPDATE = HIER / "kala_feed.xml"
 ADD = HIER / "kala_add_feed.xml"
+PLAT = HIER / "kala_add_feed_plat.xml"
 OVERGESLAGEN = HIER / "kala_overgeslagen.csv"
 GESCHRAPT = HIER / "kala_geschrapt.csv"
 BRON = HIER / "kala_tekstbron.csv"
@@ -210,6 +211,40 @@ def toets_add(update_skus):
             f"alleen in add {sorted(set(skus) - set(update_skus))[:5]}, "
             f"alleen in update {sorted(set(update_skus) - set(skus))[:5]}")
     print(f"   add-feed: {len(handles)} producten, {len(skus)} varianten")
+    return skus
+
+
+def toets_plat(add_skus):
+    """De platte add-feed moet exact dezelfde inhoud dragen als de geneste.
+
+    Deze test bestaat om één reden: Stock Sync leest een `<variants>` met één
+    enkele `<variant>` niet als lijst, en sloeg daardoor bij de eerste import
+    zes producten stil over. In de platte vorm is elke variant een eigen regel.
+    Raakt die vorm ooit uit de pas met de geneste, dan mist er weer iets zonder
+    dat er een foutmelding komt.
+    """
+    if not PLAT.exists():
+        fouten.append("kala_add_feed_plat.xml ontbreekt — draai add_scraper.py")
+        return
+    root = ET.parse(PLAT).getroot()
+    regels = root.findall("product")
+    skus = [tekst(r, "sku") for r in regels]
+    handles = {tekst(r, "handle") for r in regels}
+    eis(len(skus) == len(set(skus)),
+        f"dubbele SKU in de platte feed: "
+        f"{sorted({s for s in skus if skus.count(s) > 1})}")
+    for r in regels:
+        eis(tekst(r, "option1"), f"{tekst(r, 'sku')}: platte regel zonder option1")
+        eis(tekst(r, "handle").startswith("kala-health-"),
+            f"{tekst(r, 'sku')}: handle mist het voorvoegsel")
+        eis(tekst(r, "published") == "false",
+            f"{tekst(r, 'sku')}: published moet 'false' zijn")
+    if add_skus:
+        eis(set(skus) == set(add_skus),
+            "platte en geneste add-feed dragen niet dezelfde SKU's: "
+            f"alleen plat {sorted(set(skus) - set(add_skus))[:5]}, "
+            f"alleen genest {sorted(set(add_skus) - set(skus))[:5]}")
+    print(f"   platte add-feed: {len(regels)} regels over {len(handles)} producten")
 
 
 def toets_sku_map(feed_skus):
@@ -271,8 +306,10 @@ def main():
     skus = toets_update()
     aantal_producten = len({p.findtext("handle") for p in ET.parse(UPDATE).getroot()
                             .findall("product")}) if UPDATE.exists() else 0
+    add_skus = []
     if not alleen_update:
-        toets_add(skus)
+        add_skus = toets_add(skus) or []
+        toets_plat(add_skus)
         if ADD.exists():
             aantal_producten = len(ET.parse(ADD).getroot().findall("product"))
     toets_sku_map(skus)

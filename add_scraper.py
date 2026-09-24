@@ -31,15 +31,73 @@ from xml.dom import minidom
 import kala_common as kc
 
 OUTPUT_FILE = "kala_add_feed.xml"
+PLAT_FILE = "kala_add_feed_plat.xml"
 BRON_FILE = "kala_tekstbron.csv"
 FEED_URL = ("https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/"
             "main/kala_add_feed.xml")
+PLAT_URL = ("https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/"
+            "main/kala_add_feed_plat.xml")
 
 
 def add(parent, tag, waarde):
     el = ET.SubElement(parent, tag)
     el.text = "" if waarde is None else str(waarde)
     return el
+
+
+def build_plat_xml(producten):
+    """Dezelfde inhoud, maar één <product>-regel per variant.
+
+    Waarom deze er naast staat (24-09-2026): Stock Sync leest een `<variants>`
+    met precies ÉÉN `<variant>` niet als lijst maar als los object, en slaat die
+    rij dan over. Van de eerste import kwamen daardoor 75 van de 81 producten
+    binnen — de zes die ontbraken waren exact de zes met één variant (CM Crème,
+    Ashwagandha Extract, Plantaardige Voedingsvezels, Akkermansia Muciniphila
+    Capsules en de twee van The Akkermansia Company). Er kwam geen foutmelding:
+    die rijen werden nooit aangeboden.
+
+    Plat heeft dat probleem niet, want elke variant is zijn eigen regel. Het is
+    ook de vorm die de andere leveranciersfeeds gebruiken (Vitakruid: 284 regels
+    over 204 handles), dus Stock Sync-instellingen zijn overal hetzelfde:
+    variant-node leeg laten, variantgroep = `handle`, optie 1 = `option1`.
+
+    De producttekst wordt per variant herhaald. Dat maakt het bestand groter,
+    maar Stock Sync leest per rij en Shopify krijgt de tekst één keer per
+    product binnen.
+    """
+    root = ET.Element("products")
+    for p in producten:
+        eerste = p["afbeeldingen"][0] if p["afbeeldingen"] else ""
+        for v in p["varianten"]:
+            item = ET.SubElement(root, "product")
+            add(item, "handle", p["handle"])
+            add(item, "title", p["titel"])
+            add(item, "vendor", p["vendor"])
+            add(item, "brand", p["vendor"])
+            add(item, "product_type", p["product_type"])
+            add(item, "tags", p["tags"])
+            add(item, "published", "false")      # concept-only, altijd
+            add(item, "description", p["beschrijving"])
+            add(item, "image_links", ",".join(p["afbeeldingen"]))
+            add(item, "option1_name", p["optie1_naam"])
+            add(item, "leverancier_url", p["url"])
+            add(item, "leverancier_handle", p["leverancier_handle"])
+            add(item, "sku", v["sku"])
+            add(item, "sku_bron", v["sku_bron"])
+            add(item, "barcode", v["barcode"])
+            add(item, "price", f"{v['prijs']:.2f}")
+            add(item, "cost", f"{v['kostprijs']:.2f}" if v["kostprijs"] else "")
+            add(item, "kostprijs_bron", v["kostprijs_bron"])
+            add(item, "btw", v["btw"])
+            add(item, "compare_at_price", "")    # nooit verzonnen
+            add(item, "available", "true" if v["available"] else "false")
+            add(item, "voorraad", v["voorraad"])
+            add(item, "variant_title", v["variant_titel"])
+            add(item, "option1", v["optie1"])
+            add(item, "weight", v["gewicht"])
+            add(item, "weight_unit", "g")
+            add(item, "image", v["afbeelding"] or eerste)
+    return root
 
 
 def build_xml(producten):
@@ -119,9 +177,12 @@ def main():
     kc.controleer_omvang(regels, OUTPUT_FILE)
     schrijf_tekstbron(producten)
     save_xml(build_xml(producten), OUTPUT_FILE)
+    save_xml(build_plat_xml(producten), PLAT_FILE)
     print(f"Klaar in {time.time() - start:.0f}s — {len(producten)} producten, "
           f"{regels} varianten")
-    print(f"\nFeed-URL voor Stock Sync (Add products):\n{FEED_URL}")
+    print("\nFeed-URL voor Stock Sync (Add products):")
+    print(f"  plat, 1 regel per variant (AANBEVOLEN): {PLAT_URL}")
+    print(f"  genest, 1 regel per product:            {FEED_URL}")
     print("\nLet op: published staat op false. Draai `python themis_check.py` "
           "voordat er iets in Shopify op zichtbaar gaat.")
 

@@ -5,14 +5,28 @@ Twee feeds uit **kalahealth.nl** (publieke WooCommerce-winkel, geen login):
 | Feed | Bestand | Wat erin zit | Hoe vaak |
 |---|---|---|---|
 | **Update** | `kala_feed.xml` | SKU, prijs, beschikbaarheid van bestaande producten | 2× per dag (07:00 + 19:00 UTC) |
-| **Add** | `kala_add_feed.xml` | álle productinfo om nieuwe producten aan te maken | wekelijks (ma 04:00 UTC) |
+| **Add (plat)** | `kala_add_feed_plat.xml` | álle productinfo, **1 regel per variant** — gebruik deze | wekelijks (ma 04:00 UTC) |
+| Add (genest) | `kala_add_feed.xml` | dezelfde inhoud, 1 regel per product met `<variants>` | wekelijks |
 
-Feed-URL's voor Stock Sync (na het pushen naar GitHub):
+Feed-URL's voor Stock Sync:
 
 ```
 https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/main/kala_feed.xml
-https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/main/kala_add_feed.xml
+https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-feed/main/kala_add_feed_plat.xml
 ```
+
+> **Gebruik de platte add-feed.** Stock Sync leest een `<variants>`-blok met
+> precies één `<variant>` niet als lijst maar als los object, en slaat die rij
+> dan over — zonder foutmelding. Bij de eerste import op 24-09-2026 kwamen
+> daardoor 75 van de 81 producten binnen; de zes die ontbraken waren exact de
+> zes met één variant (CM Crème, Ashwagandha Extract, Plantaardige
+> Voedingsvezels, Akkermansia Muciniphila Capsules en de twee van The
+> Akkermansia Company). In de platte vorm is elke variant een eigen regel en
+> kan dat niet gebeuren. Het is ook de vorm die de andere leveranciersfeeds
+> gebruiken, dus de Stock Sync-instellingen zijn overal hetzelfde.
+>
+> De geneste feed blijft bestaan voor wie hem al gekoppeld heeft;
+> `test_feed.py` bewaakt dat beide dezelfde SKU's dragen.
 
 **De repo moet publiek zijn**, anders kan Stock Sync de bestanden niet ophalen.
 
@@ -168,13 +182,21 @@ kostprijs terug te rekenen; aan de verkoopprijs wordt niets op- of afgeteld.
 - Bij "niet in de feed": **voorraad op 0 zetten, nooit archiveren of op concept.**
   Stock Sync heeft in 2026 drie keer stilletjes een hele catalogus gearchiveerd.
 
-**Add-koppeling** (nieuwe producten):
-- Parent node `products.product[*]`, variant node `variants.variant[*]`.
+**Add-koppeling** (nieuwe producten) — op `kala_add_feed_plat.xml`:
+- Parent node `products.product[*]`, **variant node leeg laten**: de platte feed
+  heeft er geen, elke regel is al een variant.
 - Variantgroep-veld → `handle`, Variant Optie 1 → `option1`. Beide zijn
   verplicht, anders wordt elke regel een los product.
+- Variant optie 1 naam → `option1_name` (Aantal / Formaat / Uitvoering).
+- Leverancier → **mappen op `vendor`**, niet als vaste waarde: twee producten
+  zijn van The Akkermansia Company, niet van Kala Health.
+- Barcode niet mappen — Kala voert geen EAN.
 - "Varianten samenvoegen in bestaande producten" mag aan: het `kala-health-`
   voorvoegsel voorkomt botsingen.
 - Zet de koppeling op **alleen nieuwe producten aanmaken**.
+
+De voorbeeldweergave hoort **163 regels** te tonen die samenklappen tot **81
+producten**: 69× 2 varianten, 6× 1, 5× 3 en 1× 4.
 
 ## Draaien en testen
 
