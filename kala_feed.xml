@@ -793,8 +793,8 @@
     <url>https://www.kalahealth.nl/product/beter-slapen-bundel/?attribute_pa_aantal=500-gr-60-capsules</url>
   </product>
   <product>
-    <sku>KALA-35686</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1100305</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Dagelijkse Basis Bundel</title>
     <variant_title>180 capsules</variant_title>
@@ -811,8 +811,8 @@
     <url>https://www.kalahealth.nl/product/dagelijkse-basis-bundel/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-35685</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1100302</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Dagelijkse Basis Bundel</title>
     <variant_title>60 capsules</variant_title>
@@ -829,8 +829,8 @@
     <url>https://www.kalahealth.nl/product/dagelijkse-basis-bundel/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>KALA-35269</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1800505</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Bisglycinaat Capsules</title>
     <variant_title>180 capsules</variant_title>
@@ -847,8 +847,8 @@
     <url>https://www.kalahealth.nl/product/kalahealth-nl-product-magnesium-bis-caps/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-35268</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1800402</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Bisglycinaat Capsules</title>
     <variant_title>60 capsules</variant_title>
@@ -865,8 +865,8 @@
     <url>https://www.kalahealth.nl/product/kalahealth-nl-product-magnesium-bis-caps/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>KALA-33848</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1308180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Liposomale Magnesium capsules</title>
     <variant_title>180 capsules</variant_title>
@@ -883,8 +883,8 @@
     <url>https://www.kalahealth.nl/product/liposomale-magnesium-capsules/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-33847</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1308060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Liposomale Magnesium capsules</title>
     <variant_title>60 capsules</variant_title>
@@ -901,8 +901,8 @@
     <url>https://www.kalahealth.nl/product/liposomale-magnesium-capsules/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>KALA-33743</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1800302</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Ashwagandha Extract</title>
     <variant_title>Standaard</variant_title>
@@ -919,8 +919,8 @@
     <url>https://www.kalahealth.nl/product/ashwagandha-extract-capsules/</url>
   </product>
   <product>
-    <sku>KALA-33403</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1707180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Bisglycinaat Tabletten 100 mg</title>
     <variant_title>180 tabletten</variant_title>
@@ -937,8 +937,8 @@
     <url>https://www.kalahealth.nl/product/product-magnesium-bisglycinaat-tabletten-100mg/?attribute_pa_aantal=180-tabletten</url>
   </product>
   <product>
-    <sku>KALA-33402</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1707060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Bisglycinaat Tabletten 100 mg</title>
     <variant_title>60 tabletten</variant_title>
@@ -955,8 +955,8 @@
     <url>https://www.kalahealth.nl/product/product-magnesium-bisglycinaat-tabletten-100mg/?attribute_pa_aantal=60-tabletten</url>
   </product>
   <product>
-    <sku>KALA-32315</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1900102</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Complex poeder + Vitamine D3 + K2 (50 mcg/ 75 mcg)</title>
     <variant_title>60 capsules + 500 gr.</variant_title>
@@ -973,8 +973,8 @@
     <url>https://www.kalahealth.nl/product/magnesium-complex-d3-k2-bundel/?attribute_pa_aantal=60-capsules-500-gr</url>
   </product>
   <product>
-    <sku>KALA-32314</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1900105</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Complex poeder + Vitamine D3 + K2 (50 mcg/ 75 mcg)</title>
     <variant_title>180 capsules + 500 gr.</variant_title>
@@ -991,8 +991,8 @@
     <url>https://www.kalahealth.nl/product/magnesium-complex-d3-k2-bundel/?attribute_pa_aantal=180-capsules-500-gr-2</url>
   </product>
   <product>
-    <sku>KALA-32271</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1300305</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>OptiMSM® Poeder + Groenlipmosselolie (Aspitol®)</title>
     <variant_title>180 capsules + 500 gram</variant_title>
@@ -1009,8 +1009,8 @@
     <url>https://www.kalahealth.nl/product/aspitol-groenlipmossel-optimsm-bundel/?attribute_pa_aantal=180-capsules-500-gram</url>
   </product>
   <product>
-    <sku>KALA-32270</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1300302</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>OptiMSM® Poeder + Groenlipmosselolie (Aspitol®)</title>
     <variant_title>60 capsules + 250 gram</variant_title>
@@ -1027,8 +1027,8 @@
     <url>https://www.kalahealth.nl/product/aspitol-groenlipmossel-optimsm-bundel/?attribute_pa_aantal=60-capsules-250-gram</url>
   </product>
   <product>
-    <sku>KALA-32232</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1100205</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Huid, Haar &amp; Nagel + OptiMSM® Gel</title>
     <variant_title>180 capsules + 200 ml</variant_title>
@@ -1045,8 +1045,8 @@
     <url>https://www.kalahealth.nl/product/powerduo-huid-haar-nagels-msm-gel/?attribute_pa_aantal=180-capsules-200-ml</url>
   </product>
   <product>
-    <sku>KALA-32228</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1100202</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Huid, Haar &amp; Nagel + OptiMSM® Gel</title>
     <variant_title>60 capsules + 200 ml</variant_title>
@@ -1063,8 +1063,8 @@
     <url>https://www.kalahealth.nl/product/powerduo-huid-haar-nagels-msm-gel/?attribute_pa_aantal=60-capsules-200-ml</url>
   </product>
   <product>
-    <sku>KALA-31788</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>3401180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Rhodiola Extract</title>
     <variant_title>180 capsules</variant_title>
@@ -1081,8 +1081,8 @@
     <url>https://www.kalahealth.nl/product/rhodiola-rosea-extract-400mg/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-31787</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>3401060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Rhodiola Extract</title>
     <variant_title>60 capsules</variant_title>
@@ -1099,8 +1099,8 @@
     <url>https://www.kalahealth.nl/product/rhodiola-rosea-extract-400mg/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>KALA-31536</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1400201</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>The Akkermansia Company® Darmcomfort</title>
     <variant_title>30 tabletten</variant_title>
@@ -1117,8 +1117,8 @@
     <url>https://www.kalahealth.nl/product/the-akkermansia-company-darmcomfort/?attribute_pa_aantal=30-tabletten</url>
   </product>
   <product>
-    <sku>KALA-31246</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1404060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Vitamine D3 + K2 50mcg/ 75mcg</title>
     <variant_title>60 capsules</variant_title>
@@ -1135,7 +1135,7 @@
     <url>https://www.kalahealth.nl/product/vitamine-d3-2000iu-k2-75-mcg/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>1403080</sku>
+    <sku>1404180</sku>
     <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Vitamine D3 + K2 50mcg/ 75mcg</title>
@@ -1153,8 +1153,8 @@
     <url>https://www.kalahealth.nl/product/vitamine-d3-2000iu-k2-75-mcg/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-26392</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1302060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Liposomale Curcumine</title>
     <variant_title>60 capsules</variant_title>
@@ -1171,8 +1171,8 @@
     <url>https://www.kalahealth.nl/product/liposomale-curcumine/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>KALA-26346</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1302180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Liposomale Curcumine</title>
     <variant_title>180 capsules</variant_title>
@@ -1189,8 +1189,8 @@
     <url>https://www.kalahealth.nl/product/liposomale-curcumine/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-26099</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>3311060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Chaga Bio</title>
     <variant_title>60 capsules</variant_title>
@@ -1207,8 +1207,8 @@
     <url>https://www.kalahealth.nl/product/chaga-bio/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>KALA-26098</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>3311180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Chaga Bio</title>
     <variant_title>180 capsules</variant_title>
@@ -1261,8 +1261,8 @@
     <url>https://www.kalahealth.nl/product/probiotica/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>KALA-25925</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1301180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Liposomaal B-complex</title>
     <variant_title>180 capsules</variant_title>
@@ -1279,8 +1279,8 @@
     <url>https://www.kalahealth.nl/product/liposomaal-b-complex/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-25924</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1301060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Liposomaal B-complex</title>
     <variant_title>60 capsules</variant_title>
@@ -1351,8 +1351,8 @@
     <url>https://www.kalahealth.nl/product/vitamine-e-annatto/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-17549</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1705180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Citraat Tabletten</title>
     <variant_title>180 tabletten</variant_title>
@@ -1369,8 +1369,8 @@
     <url>https://www.kalahealth.nl/product/magnesium-citraat-tabletten/?attribute_pa_aantal=180-tabletten</url>
   </product>
   <product>
-    <sku>KALA-17548</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1705060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Citraat Tabletten</title>
     <variant_title>60 tabletten</variant_title>
@@ -1387,8 +1387,8 @@
     <url>https://www.kalahealth.nl/product/magnesium-citraat-tabletten/?attribute_pa_aantal=60-tabletten</url>
   </product>
   <product>
-    <sku>KALA-15173</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1310250</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Creatine Monohydraat Poeder</title>
     <variant_title>250g</variant_title>
@@ -1405,8 +1405,8 @@
     <url>https://www.kalahealth.nl/product/creatine-monohydraat-poeder/?attribute_pa_formaat=250g</url>
   </product>
   <product>
-    <sku>KALA-15165</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1310500</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Creatine Monohydraat Poeder</title>
     <variant_title>500g</variant_title>
@@ -1423,8 +1423,8 @@
     <url>https://www.kalahealth.nl/product/creatine-monohydraat-poeder/?attribute_pa_formaat=500g</url>
   </product>
   <product>
-    <sku>KALA-12111</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1204060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Gebufferde Vitamine C</title>
     <variant_title>60 capsules</variant_title>
@@ -1441,8 +1441,8 @@
     <url>https://www.kalahealth.nl/product/gebufferde-vitamine-c-capsules2/?attribute_pa_aantal=60-capsules</url>
   </product>
   <product>
-    <sku>KALA-12082</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1204365</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Gebufferde Vitamine C</title>
     <variant_title>365 capsules</variant_title>
@@ -1459,8 +1459,8 @@
     <url>https://www.kalahealth.nl/product/gebufferde-vitamine-c-capsules2/?attribute_pa_aantal=365-capsules-2</url>
   </product>
   <product>
-    <sku>KALA-12081</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1204180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Gebufferde Vitamine C</title>
     <variant_title>180 capsules</variant_title>
@@ -1477,8 +1477,8 @@
     <url>https://www.kalahealth.nl/product/gebufferde-vitamine-c-capsules2/?attribute_pa_aantal=180-capsules</url>
   </product>
   <product>
-    <sku>KALA-12039</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1704180</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Bisglycinaat Tabletten 200 mg</title>
     <variant_title>180 tabletten</variant_title>
@@ -1495,8 +1495,8 @@
     <url>https://www.kalahealth.nl/product/magnesiumbisglycinaat-tabletten/?attribute_pa_aantal=180-tabletten</url>
   </product>
   <product>
-    <sku>KALA-12038</sku>
-    <sku_bron>toegekend</sku_bron>
+    <sku>1704060</sku>
+    <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Bisglycinaat Tabletten 200 mg</title>
     <variant_title>60 tabletten</variant_title>
@@ -1711,7 +1711,7 @@
     <url>https://www.kalahealth.nl/product/magnesiumbisglycinaat-poeder/?attribute_pa_formaat=1kg</url>
   </product>
   <product>
-    <sku>1701180-1-1</sku>
+    <sku>1703180</sku>
     <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Complex</title>
@@ -1729,7 +1729,7 @@
     <url>https://www.kalahealth.nl/product/magnesium-complex/?attribute_aantal=180+capsules</url>
   </product>
   <product>
-    <sku>1701060-1-1</sku>
+    <sku>1703060</sku>
     <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium Complex</title>
@@ -1747,7 +1747,7 @@
     <url>https://www.kalahealth.nl/product/magnesium-complex/?attribute_aantal=60+capsules</url>
   </product>
   <product>
-    <sku>1701180-1</sku>
+    <sku>1702180</sku>
     <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium &amp; Calcium</title>
@@ -1765,7 +1765,7 @@
     <url>https://www.kalahealth.nl/product/magnesium-calcium/?attribute_aantal=180+capsules</url>
   </product>
   <product>
-    <sku>1701060-1</sku>
+    <sku>1702060</sku>
     <sku_bron>leverancier</sku_bron>
     <barcode/>
     <title>Magnesium &amp; Calcium</title>

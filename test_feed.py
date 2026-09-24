@@ -39,7 +39,11 @@ VERWACHT_MAXIMAAL = 240
 # test onder `weer_winkelpraat`: valt hij om, dan staat het telefoonnummer van
 # de leverancier op onze productpagina.
 VERBODEN_IN_TEKST = [
-    ("contactgegevens van Kala", r"info@kalahealth|070[\s-]?345|bel ons"),
+    # Het nummer op de staart toetsen: Kala schrijft het ook als
+    # "(+31) (0)70 345-0290", en daar liep het oude patroon "070-345" langs.
+    ("contactgegevens van Kala",
+     r"info@kalahealth|345[\s\-–]*0290|070[\s-]?345|\(0\)\s?70|bel ons|"
+     r"bereikbaar op|bellen naar"),
     ("verwijzing naar Kala's site", r"kalahealth\.nl"),
     ("WPBakery-shortcode", r"\[/?vc_"),
     ("kruisverkoop", r"lees meer over|ook interessant"),

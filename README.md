@@ -16,15 +16,15 @@ https://raw.githubusercontent.com/Maximillian-creator/Maximillian-creator-kala-f
 
 **De repo moet publiek zijn**, anders kan Stock Sync de bestanden niet ophalen.
 
-## De catalogus in cijfers (31-08-2026)
+## De catalogus in cijfers (24-09-2026)
 
 | | |
 |---|---|
 | productpagina's bij Kala | 81 |
 | verkoopbare varianten | 163 |
-| met Kala's eigen artikelnummer | 129 |
-| met een door ons toegekende SKU | 34 |
-| op voorraad / nabestelling / uitverkocht | 159 / 3 / 1 |
+| met Kala's eigen artikelnummer | 163 |
+| met een door ons toegekende SKU | 0 |
+| op voorraad / nabestelling / uitverkocht | 160 / 3 / 0 |
 | producten met een beschrijving | 81 van 81 |
 | overgeslagen | 0 |
 
@@ -32,21 +32,31 @@ Die getallen worden bij elke run opnieuw geteld en door `test_feed.py` vastgepin
 
 ## Vier dingen die je moet weten
 
-### 1. Een vijfde van de varianten heeft geen SKU bij Kala
+### 1. De SKU-kaart — en waarom hij op 24-09 is leeggehaald
 
-33 van de 163 varianten hebben een leeg SKU-veld — niet alleen bundels, ook
-Magnesium Bisglycinaat Capsules, Chaga Bio, Liposomale Curcumine, Rhodiola en
-Creatine. Eén variant draagt letterlijk de tekst `SKU Voorraad` als artikelnummer.
+Bij de bouw op 31-08 had **33 van de 163 varianten geen SKU** bij Kala: niet
+alleen bundels, ook Magnesium Bisglycinaat Capsules, Chaga Bio, Liposomale
+Curcumine, Rhodiola en Creatine. Eén variant droeg letterlijk de tekst
+`SKU Voorraad` als artikelnummer. Die kregen een SKU van ons —
+`KALA-<variant-id>` — want Stock Sync matcht op SKU, en zonder SKU kun je een
+product wel aanmaken maar nooit meer bijwerken.
 
-Stock Sync matcht op SKU. Zonder SKU kun je een product wel aanmaken maar nooit
-meer bijwerken. Daarom krijgt zo'n variant een SKU van ons: **`KALA-<variant-id>`**,
-met het WooCommerce-variant-id van Kala als sleutel.
+`kala_sku_map.json` is het geheugen daarachter: **een SKU die eenmaal in de feed
+heeft gestaan verandert nooit meer**, want anders maakt Stock Sync bij de
+volgende run een tweede product aan en blijft het eerste als wees achter.
 
-`kala_sku_map.json` is het geheugen: **een SKU die eenmaal in de feed heeft
-gestaan verandert nooit meer.** Vult Kala later alsnog een artikelnummer in, dan
-meldt de run dat, maar de feed blijft de oude SKU gebruiken — hernummeren is
-handwerk in Shopify, geen bijwerking van een feed. Dat bestand hoort dus in de
-repo en mag niet worden weggegooid.
+**Op 24-09-2026 bleek Kala alle ontbrekende nummers te hebben ingevuld**, en
+bovendien vijf rommelige nummers te hebben opgeschoond (`1701060-1` → `1702060`,
+`1403080` → `1404180`). Omdat er op dat moment nog niets in Shopify stond, kostte
+het vasthouden niets en leverde het alleen een dood artikelnummer op. De kaart is
+daarom leeggehaald: de feed draagt nu **163 van 163 keer Kala's eigen nummer, nul
+verzonnen SKU's**.
+
+Het vangnet blijft staan voor ná de import. Wijzigt Kala hierna nog een nummer,
+dan **meldt de run dat hardop** en houdt de feed het oude vast. Staat het product
+dan al in Shopify, dan is hernummeren handwerk; staat het er nog niet in, dan
+haal je die variant uit `kala_sku_map.json` en draai je opnieuw. Dat bestand
+hoort dus in de repo en mag niet worden weggegooid.
 
 Het veld `sku_bron` in beide feeds zegt per regel `leverancier` of `toegekend`.
 
@@ -84,12 +94,19 @@ Wat er wél automatisch uit gaat — geteld en per fragment vastgelegd in
 
 | reden | wat | aantal |
 |---|---|---|
-| shortcode | `[/vc_column_text]` van WPBakery, zichtbaar als tekst | 540 |
-| contact | "Bel ons op (+31) 070-345-0290 of mail naar info@kalahealth.nl" | 116 |
-| eigen winkel | "te bekijken in de productgalerij op deze pagina" | 36 |
+| shortcode | `[/vc_column_text]` van WPBakery, zichtbaar als tekst | 542 |
+| contact | "Bel ons op (+31) 070-345-0290 of mail naar info@kalahealth.nl" | 158 |
+| eigen winkel | "te bekijken in de productgalerij op deze pagina" | 35 |
 | kruisverkoop | "Bekijk onze eigen Probiotica", "→ Lees meer over CM Crème" | 21 |
-| auteur | de byline van Kala's eigen wetenschapsredacteur | 14 |
+| auteur | de byline van Kala's eigen wetenschapsredacteur | 16 |
 | sectie | "Over Kala Health", "Waarom koop je bij Kala Health?" | 13 |
+
+> **Let op bij het telefoonnummer.** Kala schrijft het in minstens vijf vormen,
+> waaronder `(+31) (0)70 345-0290`. Het oorspronkelijke filter zocht op
+> `070-345` en liep daar langs: op 24-09-2026 stond het nummer nog in **7**
+> beschrijvingen. Er wordt nu op de staart (`345…0290`) gefilterd, en
+> `test_feed.py` toetst daarop. Wat er ook aan dit filter verandert: die test
+> moet blijven staan, want dit is precies het soort lek dat niemand ziet.
 
 Wat blijft staan: zinnen als "geproduceerd in onze eigen FSSC 22000-faciliteit".
 Dat is productinformatie in Kala's stem; wat daarmee moet, beslissen Themis en

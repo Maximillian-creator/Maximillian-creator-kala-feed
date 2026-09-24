@@ -234,7 +234,12 @@ def wijs_skus_toe(rijen, datum, pad=SKU_MAP_FILE):
         if bekend:
             r["sku"] = bekend["sku"]
             r["sku_bron"] = bekend["bron"]
-            if van_kala and bekend["bron"] == "toegekend":
+            # Elk verschil tussen wat de feed voert en wat Kala vandaag voert
+            # moet gemeld worden — ook als de feed al een leveranciersnummer had.
+            # Kala hernummerde in september vijf varianten (1701060-1 -> 1702060);
+            # die wijziging werd stil geslikt omdat hier alleen op "toegekend"
+            # werd gekeken, en dan draagt de winkel een dood artikelnummer.
+            if van_kala and van_kala != bekend["sku"]:
                 nieuw_bij_kala.append((r, van_kala))
             bekend["sku_leverancier"] = van_kala
             bekend["laatst_gezien"] = datum
@@ -259,9 +264,11 @@ def wijs_skus_toe(rijen, datum, pad=SKU_MAP_FILE):
         for r in toegekend[:40]:
             print(f"            - {r['sku']:<12} {r['titel_vol'][:60]}")
     for r, van_kala in nieuw_bij_kala:
-        print(f"   LET OP   Kala geeft nu wel een artikelnummer voor "
-              f"{r['titel_vol'][:45]}: {van_kala} (feed houdt {r['sku']}). "
-              f"Hernummeren kan alleen met de hand in Shopify.")
+        print(f"   LET OP   Kala voert nu {van_kala} voor "
+              f"{r['titel_vol'][:45]}, de feed houdt {r['sku']}. Zolang dit "
+              f"product nog niet in Shopify staat: haal variant "
+              f"{r['variant_id']} uit {SKU_MAP_FILE} en draai opnieuw. Staat "
+              f"het er al in, dan is hernummeren handwerk in Shopify.")
     return kaart
 
 
@@ -317,8 +324,14 @@ WEREN_BLOK = [
 ]
 
 WEREN_ZIN = [
+    # Het telefoonnummer op de staart matchen (345…0290), niet op de kop.
+    # Kala schrijft het in minstens vijf vormen: "070-345-0290",
+    # "(+31) (0)70 345-0290", "(+31)(0)70 – 345 0290", "+31 (0)70 345 0290".
+    # Het oude patroon "070[\s-]?345" miste alles met "(0)" ertussen — op
+    # 24-09-2026 stond het nummer daardoor nog in 7 beschrijvingen.
     ("contact", re.compile(
-        r"info@kalahealth|070[\s-]?345|bel ons|telefonisch bereikbaar|"
+        r"info@kalahealth|345[\s\-–]*0290|070[\s-]?345|\(0\)\s?70[\s\-–]*345|"
+        r"bel ons|telefonisch bereikbaar|bereikbaar op|bellen naar|"
         r"contact (?:met ons op|op te nemen met ons|opnemen met ons)|"
         r"voor inhoudelijke vragen|staat ons team", re.I)),
     ("eigen winkel", re.compile(
@@ -455,12 +468,41 @@ def _schrap_secties(h, handle):
 _ZIN = re.compile(r".*?[.!?]+(?=\s|$)\s*|.+$", re.S)
 
 
+_TAG = re.compile(r"<(/?)([a-z0-9]+)\b[^>]*?(/?)>", re.I)
+
+
+def _tags_sluiten(stuk):
+    """Opent en sluit dit stuk tekst al zijn eigen tags?
+
+    "Wij zijn bereikbaar op <strong>+31 (0)70 345 0290</strong>." mag in zijn
+    geheel weg: de opmaak zit er netjes omheen. "…bereikbaar op <strong>+31"
+    mag niet weg, want dan blijft er een open tag achter.
+    """
+    stapel = []
+    for sluit, naam, zelf in _TAG.findall(stuk):
+        naam = naam.lower()
+        if zelf or naam == "br":
+            continue
+        if sluit:
+            if not stapel or stapel.pop() != naam:
+                return False
+        else:
+            stapel.append(naam)
+    return not stapel
+
+
 def _schrap_zinnen(binnen, handle):
     """Alleen de zin met winkelpraat eruit, de rest van het blok blijft staan.
 
-    Een zin waar opmaak (<strong>, <em>) doorheen loopt wordt niet half
-    weggeknipt — dan valt het hele blok weg, met vermelding in het logboek,
-    zodat er nooit een kapotte tag achterblijft.
+    Loopt er opmaak door de zin, dan mag hij alleen weg als die opmaak binnen
+    de zin zelf opent en sluit; anders valt het hele blok weg, met vermelding
+    in het logboek, zodat er nooit een kapotte tag achterblijft.
+
+    Dat onderscheid is niet theoretisch: bij "Aanbevolen dagelijkse dosering
+    niet overschrijden. Buiten bereik van kinderen bewaren. Voor verdere vragen
+    zijn wij bereikbaar op <strong>+31 (0)70 345 0290</strong>." zou het hele
+    blok wegvallen — inclusief twee zinnen veiligheidstekst die we juist willen
+    houden.
     """
     if not any(p.search(plat(binnen)) for _, p in WEREN_ZIN):
         return binnen
@@ -470,7 +512,7 @@ def _schrap_zinnen(binnen, handle):
         if not reden:
             houden.append(stuk)
             continue
-        if "<" in stuk or ">" in stuk:      # opmaak in de zin: te riskant
+        if ("<" in stuk or ">" in stuk) and not _tags_sluiten(stuk):
             GESCHRAPT.append([handle, reden + " (heel blok)", plat(binnen)[:200]])
             return ""
         GESCHRAPT.append([handle, reden, plat(stuk)[:200]])
