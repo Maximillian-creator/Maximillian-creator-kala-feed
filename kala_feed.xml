@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <products>
   <product>
+    <sku>2001180-1</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>L-Glutamine</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-l-glutamine</handle>
+    <option1>180 capsules</option1>
+    <price>49.95</price>
+    <cost>22.91</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/glutamine/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>2001060-1</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>L-Glutamine</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-l-glutamine</handle>
+    <option1>60 capsules</option1>
+    <price>19.95</price>
+    <cost>9.15</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/glutamine/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
     <sku>1600405</sku>
     <sku_bron>leverancier</sku_bron>
     <barcode/>
