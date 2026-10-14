@@ -49,8 +49,8 @@
     <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
     <btw>9</btw>
     <compare_at_price/>
-    <available>false</available>
-    <voorraad>nabestelling</voorraad>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
     <in_actie>false</in_actie>
     <url>https://www.kalahealth.nl/product/liposomaal-ijzer/?attribute_pa_aantal=180-capsules</url>
   </product>
@@ -67,8 +67,8 @@
     <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
     <btw>9</btw>
     <compare_at_price/>
-    <available>false</available>
-    <voorraad>nabestelling</voorraad>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
     <in_actie>false</in_actie>
     <url>https://www.kalahealth.nl/product/liposomaal-ijzer/?attribute_pa_aantal=60-capsules</url>
   </product>
