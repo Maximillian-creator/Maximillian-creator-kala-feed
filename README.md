@@ -74,6 +74,16 @@ hoort dus in de repo en mag niet worden weggegooid.
 
 Het veld `sku_bron` in beide feeds zegt per regel `leverancier` of `toegekend`.
 
+**Voert Kala één artikelnummer op twee pagina's**, dan wijkt de jongste pagina
+(hoogste id) en komt hij in `kala_overgeslagen.csv` onder de kop "dubbele SKU
+bij Kala", met de naam van de pagina die de SKU houdt. Dat gebeurde op
+25-10-2026: "Mushroom Mix BIO Poeder" (id 48687) kreeg een Duitse dubbelganger
+"Pilzmix BIO Pulver" (id 48693), allebei SKU 1500914. Vóór die regel legde de
+invariant "dubbele SKU" de hele feed stil en kregen ook de 163 bestaande
+producten geen prijs of voorraad meer. Zie `vind_dubbele_skus()` in
+`kala_common.py` en de test `toets_dubbele_sku_regel`. Staat zo'n dubbele er
+langer dan een paar weken, vraag Kala dan om een eigen nummer voor de kopie.
+
 ### 2. De handles krijgen `kala-health-` ervoor
 
 Kala verkoopt producten met doodgewone namen: Probiotica, Astaxanthine,

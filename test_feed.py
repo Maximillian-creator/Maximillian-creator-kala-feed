@@ -294,6 +294,37 @@ def toets_verantwoording(aantal_producten, met_teksten=True):
         eis(not mager, f"producten met minder dan 1000 tekens tekst: {mager}")
 
 
+def toets_dubbele_sku_regel():
+    """Pint vast wat `vind_dubbele_skus` betekent: bij twee pagina's met
+    hetzelfde Kala-artikelnummer wijkt de jongste (hoogste id), ongeacht de
+    volgorde waarin de API ze geeft; lege SKU's botsen nooit; een pagina die
+    wijkt krijgt een reden die met 'dubbele SKU bij Kala' begint, zodat hij in
+    kala_overgeslagen.csv onder die kop telt."""
+    import kala_common as kc
+
+    def rij(sku):
+        return {"sku_leverancier": sku}
+
+    # API-volgorde: nieuwste eerst (zo kwam Pilzmix vóór Mushroom Mix binnen).
+    paren = [
+        ({"id": 48693, "name": "Pilzmix BIO Pulver"}, [rij("1500914")]),
+        ({"id": 48687, "name": "Mushroom Mix BIO Poeder"}, [rij("1500914")]),
+        ({"id": 36158, "name": "Maitake BIO Powder"}, [rij("")]),
+        ({"id": 36012, "name": "Akkermansia"}, [rij("1906030")]),
+        ({"id": 500, "name": "Huid Haar Nagel"}, [rij(""), rij("1700500")]),
+    ]
+    wijkt = kc.vind_dubbele_skus(paren)
+    eis(set(wijkt) == {48693},
+        f"dubbele-SKU-regel: verwacht dat alleen id 48693 wijkt, kreeg {sorted(wijkt)}")
+    reden = wijkt.get(48693, "")
+    eis(reden.startswith("dubbele SKU bij Kala — 1500914"),
+        f"dubbele-SKU-regel: reden begint niet met de vaste kop: '{reden}'")
+    eis("Mushroom Mix BIO Poeder" in reden and "48687" in reden,
+        f"dubbele-SKU-regel: reden noemt niet wie de SKU houdt: '{reden}'")
+    eis(kc.vind_dubbele_skus([]) == {}, "dubbele-SKU-regel: lege catalogus geeft iets terug")
+    print("   dubbele-SKU-regel: de oudste pagina houdt de SKU, de jongste wijkt met reden")
+
+
 def main():
     """`--alleen-update` slaat de add-feed over.
 
@@ -303,6 +334,7 @@ def main():
     """
     alleen_update = "--alleen-update" in sys.argv
     print("Invarianten van de Kala Health-feeds\n")
+    toets_dubbele_sku_regel()
     skus = toets_update()
     aantal_producten = len({p.findtext("handle") for p in ET.parse(UPDATE).getroot()
                             .findall("product")}) if UPDATE.exists() else 0

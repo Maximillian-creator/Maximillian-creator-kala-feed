@@ -787,6 +787,43 @@ def _reden_overslaan(ouder, varianten):
     return None
 
 
+def vind_dubbele_skus(paren):
+    """Welke productpagina's moeten wijken omdat Kala hun artikelnummer ook op
+    een andere pagina voert.
+
+    Op 25-10-2026 zette Kala "Mushroom Mix BIO Poeder" (id 48687) én een Duitse
+    dubbelganger "Pilzmix BIO Pulver" (id 48693) online, allebei met SKU
+    1500914. Stock Sync matcht op SKU, dus twee regels met hetzelfde nummer
+    zijn één regel te veel — en de invariant verderop legde terecht de hele
+    feed stil, waardoor ook de 163 bestaande producten geen prijs of voorraad
+    meer kregen. Hier wijkt de jongste pagina (hoogste id); de oudste houdt
+    de SKU, want die is bij ons al bekend. Niet op API-volgorde, want die
+    zet het nieuwste product vooraan en zou de Duitse kopie laten winnen.
+
+    `paren` = [(ouder, rijen)] zoals fetch_products ze opbouwt. Geeft
+    {ouder_id: reden} voor elke pagina die wijkt; een lege SKU telt niet mee,
+    die krijgt verderop een eigen nummer van wijs_skus_toe().
+    """
+    drager = {}                                   # sku -> (ouder_id, naam)
+    for o, rijen in sorted(paren, key=lambda p: p[0]["id"]):
+        for v in rijen:
+            sku = v["sku_leverancier"]
+            if sku:
+                drager.setdefault(sku, (o["id"], unescape(o["name"])))
+    wijkt = {}
+    for o, rijen in paren:
+        botst = sorted({v["sku_leverancier"] for v in rijen
+                        if v["sku_leverancier"]
+                        and drager[v["sku_leverancier"]][0] != o["id"]})
+        if botst:
+            eerste_id, eerste_naam = drager[botst[0]]
+            wijkt[o["id"]] = (
+                f"dubbele SKU bij Kala — {', '.join(botst)} staat ook op "
+                f"'{eerste_naam}' (id {eerste_id}); die houdt de SKU, "
+                f"'{unescape(o['name'])}' (id {o['id']}) wijkt tot Kala het oplost")
+    return wijkt
+
+
 def schrijf_overgeslagen(rijen, pad=OVERGESLAGEN_FILE):
     with open(pad, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
@@ -863,12 +900,19 @@ def fetch_products(met_teksten=True, datum=""):
     print(f"   {len(ouders)} productpagina's + {len(ruwe_varianten)} varianten "
           f"uit de Store API")
 
-    overgeslagen, houden = [], []
+    paren = []
     for o in ouders:
         rijen = [normaliseer_variant(v, o) for v in per_ouder.get(o["id"], [])]
         if o["type"] == "simple":
             rijen = [normaliseer_variant(o, o)]
-        reden = _reden_overslaan(o, rijen)
+        paren.append((o, rijen))
+    dubbel = vind_dubbele_skus(paren)
+    for o_id, reden in dubbel.items():
+        print(f"    !  {reden}")
+
+    overgeslagen, houden = [], []
+    for o, rijen in paren:
+        reden = _reden_overslaan(o, rijen) or dubbel.get(o["id"])
         if reden:
             overgeslagen.append([o["id"], unescape(o["name"]), o["type"], reden])
         else:
