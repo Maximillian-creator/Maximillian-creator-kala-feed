@@ -49,6 +49,7 @@ import json
 import os
 import re
 import time
+import xml.etree.ElementTree as ET
 from html import unescape
 
 import requests
@@ -854,6 +855,105 @@ def schrijf_geschrapt(pad=GESCHRAPT_FILE):
 # --------------------------------------------------------------------------- #
 # Vangnet — een halve feed is gevaarlijker dan geen feed
 # --------------------------------------------------------------------------- #
+# ── prijsrem (30-10-2026) ─────────────────────────────────────────────────────
+# Op 27-10-2026 ging kalahealth.nl prijzen zonder btw tonen aan bezoekers buiten de EU. De
+# GitHub-runners staan in de VS, dus de feed kreeg alle prijzen ÷1,09 en Stock Sync zette ze
+# op 28-10 08:00 zo in de winkel (B12 € 18,30 in plaats van € 19,95). Vanaf de VPS en vanaf
+# Max' laptop gaf dezelfde API gewoon € 19,95. Een prijs mag daarom alleen nog veranderen als
+# de verandering klein is, of als hij precies de btw is (dan rekenen we hem terug). Al het
+# andere houdt de prijs uit de vorige feed, met een regel in het log; Nebula ziet de feed dan
+# als onveranderd op dat punt en Max beslist. Beschikbaarheid gaat altijd mee.
+
+PRIJSREM_MARGE = 0.03            # tot 3% verschil met de vorige feed is een gewone prijswijziging
+PRIJSREM_BTW_SPELING = 0.006     # ÷1,09 of ÷1,21 herkennen we op 0,6% nauwkeurig (afronding op centen)
+PRIJSREM_BTW_MINIMUM = 0.30      # btw-correctie alleen als ≥ 30% van de regels dat patroon heeft (systeem, geen toeval)
+
+
+def lees_vorige_prijzen(pad):
+    """{sku: prijs} uit de vorige feed; leeg als er geen vorige feed is."""
+    try:
+        root = ET.parse(pad).getroot()
+    except (OSError, ET.ParseError):
+        return {}
+    uit = {}
+    for el in root.iter("product"):
+        sku = (el.findtext("sku") or "").strip()
+        try:
+            prijs = float(el.findtext("price") or "")
+        except ValueError:
+            continue
+        if sku and prijs > 0:
+            uit[sku] = prijs
+    return uit
+
+
+def prijsrem(producten, vorig_bestand):
+    """Vergelijk elke variant met de vorige feed en pas de prijs ter plekke aan.
+    Per regel: gelijk of < 3% anders → nieuw; precies ÷(1+btw) bij ≥ 30% van de regels → ×(1+btw)
+    (btw terugrekenen); precies ×(1+btw) → nieuw (de bron toont weer incl.); anders → de vorige prijs.
+    Geeft een verslag-dict; schrijft niets weg."""
+    vorige = lees_vorige_prijzen(vorig_bestand)
+    rapport = {"vergeleken": 0, "nieuw_zonder_vorige": 0, "ok": 0, "btw_eraf": 0, "btw_terug": 0,
+               "afwijkend": [], "gecorrigeerd": [], "vastgehouden": []}
+    if not vorige:
+        rapport["nieuw_zonder_vorige"] = sum(len(p["varianten"]) for p in producten)
+        return rapport
+    klassen = []                                          # (variant, product, klasse, vorige prijs, btw-factor)
+    # Beide Nederlandse tarieven, los van wat wij zelf voor het product aannemen: Kala rekent 21% op
+    # bundels en vezels waar onze btw_tarief() 9 zegt (gezien 30-10), en de rem moet dan niet struikelen.
+    for p in producten:
+        for v in p["varianten"]:
+            oud = vorige.get(v["sku"])
+            if not oud:
+                rapport["nieuw_zonder_vorige"] += 1
+                continue
+            rapport["vergeleken"] += 1
+            ratio = v["prijs"] / oud
+            klasse, factor = "afwijkend", 1.0
+            if abs(ratio - 1) <= PRIJSREM_MARGE:
+                klasse = "ok"
+            else:
+                for f in (1.09, 1.21):
+                    if abs(ratio - 1 / f) <= PRIJSREM_BTW_SPELING:
+                        klasse, factor = "btw_eraf", f
+                    elif abs(ratio - f) <= PRIJSREM_BTW_SPELING:
+                        klasse, factor = "btw_terug", f
+            klassen.append((v, p, klasse, oud, factor))
+    n = max(rapport["vergeleken"], 1)
+    btw_systeem = sum(1 for _, _, k, _, _ in klassen if k == "btw_eraf") / n >= PRIJSREM_BTW_MINIMUM
+    for v, p, klasse, oud, factor in klassen:
+        if klasse == "btw_eraf" and btw_systeem:
+            nieuw = round(v["prijs"] * factor, 2)
+            rapport["gecorrigeerd"].append((v["sku"], v["prijs"], nieuw))
+            v["prijs"] = nieuw
+            v["kostprijs"] = bepaal_kostprijs(nieuw, p["titel"])
+            rapport["btw_eraf"] += 1
+        elif klasse in ("ok", "btw_terug"):
+            rapport[klasse] += 1
+        else:                                             # afwijkend, of een losse ÷btw-regel zonder systeem
+            rapport["afwijkend"].append((v["sku"], oud, v["prijs"]))
+            rapport["vastgehouden"].append(v["sku"])
+            v["prijs"] = oud
+            v["kostprijs"] = bepaal_kostprijs(oud, p["titel"])
+    return rapport
+
+
+def prijsrem_verslag(r):
+    regels = [f"   PRIJSREM {r['vergeleken']} regels vergeleken met de vorige feed, "
+              f"{r['nieuw_zonder_vorige']} nieuw zonder vorige prijs: {r['ok']} gelijk of < 3% anders"]
+    if r["btw_eraf"]:
+        regels.append(f"   !  BTW-CORRECTIE: {r['btw_eraf']} prijzen kwamen zonder btw binnen (÷1,09 of ÷1,21) "
+                      f"en zijn teruggerekend, bv. {r['gecorrigeerd'][0][0]}: {r['gecorrigeerd'][0][1]:.2f} → "
+                      f"{r['gecorrigeerd'][0][2]:.2f}. De bron toont prijzen excl. btw aan dit adres.")
+    if r["btw_terug"]:
+        regels.append(f"   !  {r['btw_terug']} prijzen zijn precies de btw hoger dan de vorige feed: de bron toont weer incl.")
+    if r["vastgehouden"]:
+        voorbeeld = ", ".join(f"{s}: {o:.2f} → {n:.2f}" for s, o, n in r["afwijkend"][:5])
+        regels.append(f"   !  VASTGEHOUDEN: {len(r['vastgehouden'])} prijzen wijken > 3% af zonder btw-patroon; de prijs "
+                      f"uit de vorige feed blijft staan tot Max ernaar kijkt ({voorbeeld})")
+    return "\n".join(regels)
+
+
 def controleer_omvang(aantal, vorig_bestand):
     """Stop de run bij een lege of gehalveerde feed.
 

@@ -75,6 +75,10 @@ def main():
     producten = kc.fetch_products(met_teksten=False, datum=date.today().isoformat())
     regels = sum(len(p["varianten"]) for p in producten)
     kc.controleer_omvang(regels, OUTPUT_FILE)
+    # 30-10-2026: kalahealth.nl toonde sinds 27-10 prijzen zonder btw aan de GitHub-runner (VS); Stock Sync
+    # zette daardoor alle Kala-prijzen 8,3% te laag in de winkel. De prijsrem vergelijkt met de vorige feed.
+    rem = kc.prijsrem(producten, OUTPUT_FILE)
+    print(kc.prijsrem_verslag(rem))
     save_xml(build_xml(producten), OUTPUT_FILE)
     print(f"Klaar in {time.time() - start:.0f}s — {len(producten)} producten, "
           f"{regels} varianten")

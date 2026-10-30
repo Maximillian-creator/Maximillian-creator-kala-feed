@@ -325,6 +325,72 @@ def toets_dubbele_sku_regel():
     print("   dubbele-SKU-regel: de oudste pagina houdt de SKU, de jongste wijkt met reden")
 
 
+
+def toets_prijsrem():
+    """30-10-2026: kalahealth.nl toonde de GitHub-runner prijzen zonder btw (÷1,09) en Stock Sync zette
+    ze zo in de winkel. De prijsrem (kala_common.prijsrem) moet dat herkennen en terugrekenen, een losse
+    rare prijs vasthouden, en een gewone kleine wijziging doorlaten. Eerst op de echte feeds van 25-10
+    (incl. btw) en 27-10 (zonder btw), dan op kleine gevallen."""
+    import subprocess
+    import tempfile
+    import kala_common as kc
+
+    def producten_uit(xml_tekst):
+        root = ET.fromstring(xml_tekst)
+        uit = {}
+        for el in root.findall("product"):
+            uit.setdefault(el.findtext("handle"), {"titel": el.findtext("title"), "varianten": []})
+            uit[el.findtext("handle")]["varianten"].append({
+                "sku": el.findtext("sku"), "prijs": float(el.findtext("price")), "btw": int(el.findtext("btw") or 9),
+                "kostprijs": 0.0, "available": el.findtext("available") == "true"})
+        return list(uit.values())
+
+    def git_xml(ref):
+        return subprocess.run(["git", "show", f"{ref}:kala_feed.xml"], capture_output=True, text=True,
+                              encoding="utf-8", cwd=HIER).stdout
+
+    goed, zonder_btw = git_xml("48616a6"), git_xml("8c5b3c2")
+    if goed.startswith("<?xml") and zonder_btw.startswith("<?xml"):
+        with tempfile.TemporaryDirectory() as d:
+            vorig = Path(d) / "vorig.xml"
+            vorig.write_text(goed, encoding="utf-8")
+            producten = producten_uit(zonder_btw)
+            r = kc.prijsrem(producten, str(vorig))
+            eis(r["vergeleken"] >= 150 and r["btw_eraf"] >= 150 and not r["vastgehouden"],
+                f"prijsrem herkende de btw-loze feed van 27-10 niet: {r['btw_eraf']} van {r['vergeleken']}")
+            per_sku = {v["sku"]: v["prijs"] for p in producten for v in p["varianten"]}
+            eis(per_sku.get("1800605") == 49.95 and per_sku.get("1310060") == 19.95,
+                f"terugrekenen klopt niet: {per_sku.get('1800605')} / {per_sku.get('1310060')}")
+            # andersom (de bron toont weer incl. na een btw-loze feed): nieuwe prijzen gaan gewoon door
+            vorig.write_text(zonder_btw, encoding="utf-8")
+            producten = producten_uit(goed)
+            r = kc.prijsrem(producten, str(vorig))
+            eis(r["btw_terug"] >= 150 and not r["vastgehouden"] and not r["btw_eraf"],
+                f"btw terug niet herkend: {r['btw_terug']}, vastgehouden {len(r['vastgehouden'])}")
+    else:
+        print("   (git-historie niet beschikbaar: alleen de kleine gevallen)")
+
+    # kleine gevallen: 10 regels, één rare prijs, één kleine wijziging, één losse ÷1,09 zonder systeem
+    with tempfile.TemporaryDirectory() as d:
+        vorig = Path(d) / "vorig.xml"
+        vorig.write_text('<?xml version="1.0"?><products>' + "".join(
+            f"<product><sku>s{i}</sku><handle>h{i}</handle><title>T{i}</title><price>20.00</price><btw>9</btw>"
+            f"<available>true</available></product>" for i in range(10)) + "</products>", encoding="utf-8")
+        producten = [{"titel": f"T{i}", "varianten": [{"sku": f"s{i}", "prijs": 20.00, "btw": 9, "kostprijs": 0.0}]}
+                     for i in range(10)]
+        producten[0]["varianten"][0]["prijs"] = 20.40      # +2%: gewoon
+        producten[1]["varianten"][0]["prijs"] = 12.00      # -40%: vasthouden
+        producten[2]["varianten"][0]["prijs"] = 18.35      # ÷1,09 maar als enige: vasthouden (geen systeem)
+        producten.append({"titel": "Nieuw", "varianten": [{"sku": "s99", "prijs": 5.00, "btw": 9, "kostprijs": 0.0}]})
+        r = kc.prijsrem(producten, str(vorig))
+        eis(r["ok"] == 8 and r["vergeleken"] == 10 and r["nieuw_zonder_vorige"] == 1, f"telling prijsrem: {r}")
+        eis(sorted(r["vastgehouden"]) == ["s1", "s2"], f"vastgehouden: {r['vastgehouden']}")
+        prijzen = {v["sku"]: v["prijs"] for p in producten for v in p["varianten"]}
+        eis(prijzen["s0"] == 20.40 and prijzen["s1"] == 20.00 and prijzen["s2"] == 20.00 and prijzen["s99"] == 5.00,
+            f"prijzen na de rem: {prijzen}")
+        eis("VASTGEHOUDEN: 2" in kc.prijsrem_verslag(r), "verslag noemt de vastgehouden prijzen niet")
+    print("   prijsrem: btw-loze feed teruggerekend, rare prijs vastgehouden, kleine wijziging doorgelaten")
+
 def main():
     """`--alleen-update` slaat de add-feed over.
 
@@ -335,6 +401,7 @@ def main():
     alleen_update = "--alleen-update" in sys.argv
     print("Invarianten van de Kala Health-feeds\n")
     toets_dubbele_sku_regel()
+    toets_prijsrem()
     skus = toets_update()
     aantal_producten = len({p.findtext("handle") for p in ET.parse(UPDATE).getroot()
                             .findall("product")}) if UPDATE.exists() else 0
