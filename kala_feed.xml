@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <products>
   <product>
+    <sku>1600605</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Shilajit</title>
+    <variant_title>180 capsules</variant_title>
+    <handle>kala-health-shilajit</handle>
+    <option1>180 capsules</option1>
+    <price>55.00</price>
+    <cost>25.23</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/shilajit/?attribute_pa_aantal=180-capsules</url>
+  </product>
+  <product>
+    <sku>1600502</sku>
+    <sku_bron>leverancier</sku_bron>
+    <barcode/>
+    <title>Shilajit</title>
+    <variant_title>60 capsules</variant_title>
+    <handle>kala-health-shilajit</handle>
+    <option1>60 capsules</option1>
+    <price>22.89</price>
+    <cost>10.50</cost>
+    <kostprijs_bron>aanname: 50% marge volgens de vertegenwoordiger, niet op factuur gecontroleerd</kostprijs_bron>
+    <btw>9</btw>
+    <compare_at_price/>
+    <available>true</available>
+    <voorraad>op-voorraad</voorraad>
+    <in_actie>false</in_actie>
+    <url>https://www.kalahealth.nl/product/shilajit/?attribute_pa_aantal=60-capsules</url>
+  </product>
+  <product>
     <sku>1800605</sku>
     <sku_bron>leverancier</sku_bron>
     <barcode/>
